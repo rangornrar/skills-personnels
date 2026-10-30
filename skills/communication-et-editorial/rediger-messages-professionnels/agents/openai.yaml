@@ -1,0 +1,6 @@
+interface:
+  display_name: "Rédiger des messages professionnels"
+  short_description: "Messages simples, courts et prêts à utiliser"
+  default_prompt: "Utilise $rediger-messages-professionnels pour rédiger une réponse professionnelle courte, naturelle et sans redondance, fidèle aux faits fournis."
+policy:
+  allow_implicit_invocation: true

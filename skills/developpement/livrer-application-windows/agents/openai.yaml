@@ -1,0 +1,6 @@
+interface:
+  display_name: "Livrer une application Windows"
+  short_description: "Tests, versions, paquets et releases vérifiés"
+  default_prompt: "Utilise $livrer-application-windows pour préparer la livraison de cette application à partir des consignes de son dépôt et vérifier les artefacts produits."
+policy:
+  allow_implicit_invocation: true

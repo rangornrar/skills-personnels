@@ -1,0 +1,14 @@
+interface:
+  display_name: Analyse critique et aide à la décision
+  short_description: Comparer les options, les preuves et les risques
+  default_prompt: Utilise $analyse-critique-decision pour examiner cette situation
+    sous plusieurs angles, tester les objections et proposer une décision argumentée.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

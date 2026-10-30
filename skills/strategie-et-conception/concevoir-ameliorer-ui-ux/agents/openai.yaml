@@ -1,0 +1,4 @@
+interface:
+  display_name: "Conception et amélioration UI/UX"
+  short_description: "Concevoir et améliorer les interfaces avec des sources"
+  default_prompt: "Utilise $concevoir-ameliorer-ui-ux pour examiner ce programme, rechercher des références pertinentes et proposer des améliorations UI et UX concrètes et priorisées."

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Transcrire une réunion et ses actions"
+  short_description: "Transcription, décisions et actions traçables"
+  default_prompt: "Utilise $transcrire-reunion-et-actions pour exploiter cet enregistrement ou cette transcription pour produire un compte rendu et un suivi d’actions fidèles."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Produire des visuels produits"
+  short_description: "Packshots fidèles, proportions et déclinaisons"
+  default_prompt: "Utilise $produire-visuels-produits pour préparer des visuels commerciaux fidèles aux produits et vérifier leurs proportions avant les déclinaisons."
+policy:
+  allow_implicit_invocation: true

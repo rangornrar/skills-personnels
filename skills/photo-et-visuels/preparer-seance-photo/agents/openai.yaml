@@ -1,0 +1,6 @@
+interface:
+  display_name: "Préparer une séance photo"
+  short_description: "Brief, poses, éclairages et livret de séance"
+  default_prompt: "Utilise $preparer-seance-photo pour préparer une séance avec des poses classées, un éclairage réalisable et un livret utilisable sur le terrain."
+policy:
+  allow_implicit_invocation: true

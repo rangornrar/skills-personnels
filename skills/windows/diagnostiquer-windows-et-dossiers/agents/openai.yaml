@@ -1,0 +1,6 @@
+interface:
+  display_name: "Diagnostiquer Windows et les dossiers"
+  short_description: "Diagnostic PC et comparaison de fichiers"
+  default_prompt: "Utilise $diagnostiquer-windows-et-dossiers pour diagnostiquer ce problème de fichiers ou de Windows à partir de preuves, puis proposer une correction ciblée."
+policy:
+  allow_implicit_invocation: true

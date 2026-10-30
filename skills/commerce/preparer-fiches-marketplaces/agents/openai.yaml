@@ -1,0 +1,6 @@
+interface:
+  display_name: "Préparer des fiches marketplaces"
+  short_description: "Fiches sourcées, attributs et nutrition contrôlés"
+  default_prompt: "Utilise $preparer-fiches-marketplaces pour préparer une fiche marketplace avec des attributs sourcés et les points à confirmer avant import."
+policy:
+  allow_implicit_invocation: true

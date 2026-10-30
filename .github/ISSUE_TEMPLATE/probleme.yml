@@ -1,0 +1,22 @@
+name: Signaler un problème
+description: Décrire un comportement ou une installation qui ne correspond pas au besoin.
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill, révision et environnement
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Demande minimale et résultat observé
+      description: Utiliser des sources fictives ou anonymisées, sans données confidentielles.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Résultat attendu
+    validations:
+      required: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Rechercher un emploi et candidater"
+  short_description: "Annonces vérifiées, candidatures et suivi"
+  default_prompt: "Utilise $rechercher-emploi-et-candidatures pour rechercher des pistes adaptées à ce CV et à ces critères, puis préparer un suivi des candidatures."
+policy:
+  allow_implicit_invocation: true

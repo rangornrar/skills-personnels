@@ -1,0 +1,6 @@
+interface:
+  display_name: "Analyser un export Strava"
+  short_description: "Tendances, périodes comparables et graphiques"
+  default_prompt: "Utilise $analyser-export-strava pour analyser cet export sur les périodes demandées avec des graphiques et des calculs explicités."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,13 @@
+* text=auto
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.svg text eol=lf
+*.png binary
+# Préserver les octets des copies de référence et imports, même sous Windows.
+skills/strategie-et-conception/** -text
+skills/developpement/gh-fix-ci/** -text
+skills/developpement/gh-address-comments/** -text
+skills/securite/** -text

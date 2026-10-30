@@ -1,0 +1,15 @@
+name: Proposer une amélioration
+description: Proposer une méthode ou une ressource utile à un workflow concret.
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Besoin, exemple concret et skill concerné
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Comportement attendu et manière de le vérifier
+    validations:
+      required: true

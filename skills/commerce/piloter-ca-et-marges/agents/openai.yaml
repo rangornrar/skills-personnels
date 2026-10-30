@@ -1,0 +1,6 @@
+interface:
+  display_name: "Piloter le CA et les marges"
+  short_description: "Réalisé, prévisions et marges par canal"
+  default_prompt: "Utilise $piloter-ca-et-marges pour construire un suivi du réalisé, un atterrissage et des marges dont les hypothèses sont traçables."
+policy:
+  allow_implicit_invocation: true

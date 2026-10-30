@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "imports": [
+    {
+      "name": "analyse-critique-decision",
+      "origin": "existant",
+      "source": "https://github.com/rangornrar/analyse-critique-decision",
+      "source_type": "copie-locale-de-reference",
+      "path": "skills/strategie-et-conception/analyse-critique-decision",
+      "files_sha256": {
+        "agents/openai.yaml": "63efa67912b4fc00df6e0c303dc4af219438151663eedf0ea036cf04a41e1881",
+        "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+        "LICENSE": "392fb69570d58eae0c719e1fc5b200a813fb2c229dbf27f568372def285f63ed",
+        "README.md": "ef2b7d99d42e0aa6f84c0de54a0bd8a945ec978c4c1af42cb753835719654ba8",
+        "SKILL.md": "acba9c70e10c0a6015b9f33adb3d6ea0309c2a42ba227206431ddbe7b49b875d"
+      }
+    },
+    {
+      "name": "concevoir-ameliorer-ui-ux",
+      "origin": "existant",
+      "source": "https://github.com/rangornrar/concevoir-ameliorer-ui-ux",
+      "source_type": "copie-locale-de-reference",
+      "path": "skills/strategie-et-conception/concevoir-ameliorer-ui-ux",
+      "files_sha256": {
+        "agents/openai.yaml": "62f84c055e1f6aeeeee0bc358e4515f71188e4f050e205e7881f558acd0996ab",
+        "SKILL.md": "8065bd7fc8ec15094ee7d29d0dca92ec1fae007519862a9e65772e5e908005d6"
+      }
+    },
+    {
+      "name": "specifier-projet",
+      "origin": "existant",
+      "source": "https://github.com/rangornrar/specifier-projet",
+      "source_type": "copie-locale-de-reference",
+      "path": "skills/strategie-et-conception/specifier-projet",
+      "files_sha256": {
+        "agents/openai.yaml": "a95dffa9b3238a1b34f486fdafac7dd26c509eae58245712f95075105ea22f08",
+        "assets/icon.svg": "51a6923974188748638a424aa59b42b6afad2d910f910a1d43bb13ee10f3ce26",
+        "references/domaines.md": "ce376a64154aa02073351858ac10155e908139d6afca2fd0ea36f199f8e6b059",
+        "references/plan-dossier.md": "6ed2b26c6b48e8c4943cf77734610926615bb587492f63699e583aaa101bb6eb",
+        "SKILL.md": "2c5cb1dca7e1112ab0af6c27a0028cfedfba723ab3c2f186f9a28f4f73da1b94"
+      }
+    },
+    {
+      "name": "gh-address-comments",
+      "origin": "openai",
+      "source": "https://github.com/openai/skills",
+      "source_path": "skills/.curated/gh-address-comments",
+      "source_ref": "49f948faa9258a0c61caceaf225e179651397431",
+      "path": "skills/developpement/gh-address-comments",
+      "files_sha256": {
+        "agents/openai.yaml": "12cf845a78254dde85e60eefb45a60e6ce2129d321f3e1d691d4ebca9a140861",
+        "assets/github-small.svg": "ee05e92d373d4d84f4612af3c1090ef67698d421bbe30896a4ed5a00cb86a069",
+        "assets/github.png": "d55a9baa41798d8b5108e3058df3a5bda09914ea9fd73b49929cc38a8832424f",
+        "LICENSE.txt": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "scripts/fetch_comments.py": "d7bc64f6b26f7482f9ca9dd7c923a5b8b20e1ef13491ae2d9052cd208a7c1ad1",
+        "SKILL.md": "77389eefd3fb6584210668ca8e43f4b8de87e7722ddd953474bc9e24cdfaaedd"
+      }
+    },
+    {
+      "name": "gh-fix-ci",
+      "origin": "openai",
+      "source": "https://github.com/openai/skills",
+      "source_path": "skills/.curated/gh-fix-ci",
+      "source_ref": "49f948faa9258a0c61caceaf225e179651397431",
+      "path": "skills/developpement/gh-fix-ci",
+      "files_sha256": {
+        "agents/openai.yaml": "36f73b9450504983d1647c960689596f59bf9147c14b1b43162912ed7ada9af6",
+        "assets/github-small.svg": "ee05e92d373d4d84f4612af3c1090ef67698d421bbe30896a4ed5a00cb86a069",
+        "assets/github.png": "d55a9baa41798d8b5108e3058df3a5bda09914ea9fd73b49929cc38a8832424f",
+        "LICENSE.txt": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "scripts/inspect_pr_checks.py": "9459e5b03f86785d184a83e5cd8d621b832e918ec04158a2962d867785812c6c",
+        "SKILL.md": "7b326b4a2f0f5f85122144628ec02077e48841e0e0e82efce88b3415bcfb7c26"
+      }
+    },
+    {
+      "name": "security-best-practices",
+      "origin": "openai",
+      "source": "https://github.com/openai/skills",
+      "source_path": "skills/.curated/security-best-practices",
+      "source_ref": "49f948faa9258a0c61caceaf225e179651397431",
+      "path": "skills/securite/security-best-practices",
+      "files_sha256": {
+        "agents/openai.yaml": "6e9c6f2edce448eb2b589f81ad6e3f722665021785513bcbfd0bf7b86b529171",
+        "LICENSE.txt": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "references/golang-general-backend-security.md": "a73c47c34497b120672d48411fe51dc90d426a571801a0b3f649e2ce4ec658b4",
+        "references/javascript-express-web-server-security.md": "427835cbb5be7ba96172ea6ca9af80ddd4419c833e9ebf870996740c80d8406c",
+        "references/javascript-general-web-frontend-security.md": "3a7bc7b3f6e7ff043db9dbaa8933894d7a19d987d0607e4ddae5d70184a63d63",
+        "references/javascript-jquery-web-frontend-security.md": "bcbad2fa6c2a02709e47e889e70102c76886bf36bc798624d27db570eccf40da",
+        "references/javascript-typescript-nextjs-web-server-security.md": "71c773f7a97ce60c853adfa100b3d88b3b7bc4c6b8acaef1432ffabd923ee182",
+        "references/javascript-typescript-react-web-frontend-security.md": "d3030c0f24bddb56b9bbb91bbec1ee49eb7778bce4d3e0297b2641b2fc6b0d9c",
+        "references/javascript-typescript-vue-web-frontend-security.md": "77c6a747f9f17e3df03aad0fcb20d99ac7898001b81aef8b80908e45ac14a688",
+        "references/python-django-web-server-security.md": "4fb69b5d45f10e588d1a8c35cdc5f59e18910f6b46a93e2d342d90f286f8dfd2",
+        "references/python-fastapi-web-server-security.md": "7383c7f4fc271190b05e562ada7e825982a2c76b6c79a9f95a1da7687b65a616",
+        "references/python-flask-web-server-security.md": "9606d69190c04c167fdeac57e61297547a57b0542fd89dede36f355970446929",
+        "SKILL.md": "7b3dae1ffc5434d890f3c65c8f552af52d0307fab3b35dec13013c9ca3844c4f"
+      }
+    },
+    {
+      "name": "security-threat-model",
+      "origin": "openai",
+      "source": "https://github.com/openai/skills",
+      "source_path": "skills/.curated/security-threat-model",
+      "source_ref": "49f948faa9258a0c61caceaf225e179651397431",
+      "path": "skills/securite/security-threat-model",
+      "files_sha256": {
+        "agents/openai.yaml": "3319b59736312abceca614e341c0e59cae47263e3b58a22b2b5ddf1e5fc8c227",
+        "LICENSE.txt": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "references/prompt-template.md": "81a59aa3fb3ac3a739d6a26ab38e4015965f215581ee54becef21a2b121ec29b",
+        "references/security-controls-and-assets.md": "d536cfa9acad2523dc39134bcf33b9566c29dd9a57b407cbc9901637230c6b98",
+        "SKILL.md": "1283c0dd62a8104d9edda4583569b5d8510b4ddaa45120687c999250fd96bad2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Produire des contenus éditoriaux"
+  short_description: "Sources, scripts et packs de publication"
+  default_prompt: "Utilise $produire-contenus-editoriaux pour préparer un contenu sourcé avec un script adapté au support et les éléments de publication demandés."
+policy:
+  allow_implicit_invocation: true
