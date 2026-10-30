@@ -7,6 +7,54 @@
 
 Les skills portent les méthodes de travail et critères de qualité. Les logiciels, moteurs d'image, connecteurs et outils de production restent ceux disponibles dans l'environnement d'exécution.
 
+## Sommaire
+
+- [À quoi sert cette bibliothèque](#à-quoi-sert-cette-bibliothèque)
+- [Comment les utiliser](#comment-les-utiliser)
+- [Sorties attendues](#sorties-attendues)
+- [Parcourir la bibliothèque](#parcourir-la-bibliothèque)
+- [Installer les skills utiles](#installer-les-skills-utiles)
+- [Architecture de la bibliothèque](#architecture-de-la-bibliothèque)
+- [Capacités nécessaires](#capacités-nécessaires)
+- [Qualité et maintenance](#qualité-et-maintenance)
+- [Sources et licences](#sources-et-licences)
+
+## À quoi sert cette bibliothèque
+
+Réutiliser des méthodes de travail pour des tâches qui reviennent : préparer une séance, rédiger une fiche produit, rendre compte d'une réunion, cadrer un logiciel ou analyser des données. Chaque skill décrit les éléments nécessaires, les étapes utiles et le résultat attendu.
+
+## Comment les utiliser
+
+1. Choisir un workflow dans le [catalogue](CATALOGUE.md) et lire son README.
+2. Préparer les fichiers, références et contraintes indiqués dans ce guide.
+3. Formuler le résultat attendu et utiliser une demande adaptée à votre contexte.
+4. Examiner les sorties et les points encore à confirmer avant de les utiliser.
+
+### Exemples de demandes
+
+```text
+Utilise $preparer-seance-photo pour préparer cette séance et son livret de poses.
+Utilise $preparer-fiches-marketplaces pour préparer cette référence à partir des sources jointes.
+Utilise $transcrire-reunion-et-actions pour produire le compte rendu de cette transcription.
+```
+
+L'invocation implicite reste disponible pour les skills personnels. Les imports OpenAI conservent leurs instructions et métadonnées d'origine. Leur langue de rédaction peut rester l'anglais ; demander une restitution en français si nécessaire.
+
+## Sorties attendues
+
+Chaque README décrit les livrables propres au skill et leurs conditions. Voici les principaux types de résultats :
+
+| Usage | Sorties possibles |
+| --- | --- |
+| Décision et conception | Recommandation, comparaison, spécifications, audit ou proposition d'interface. |
+| Photo et visuels | Brief, poses classées, plan d'éclairage, moodboard, livret ou images produits. |
+| Commerce | Textes de fiche, attributs sourcés, suivi du CA, scénarios et calculs de marge. |
+| Réunions et éditorial | Transcription, compte rendu, actions, message, script ou pack de publication. |
+| Développement et sécurité | Diagnostic, correctifs autorisés, paquet, notes de livraison ou rapport de sécurité. |
+| Emploi, sport et Windows | Pistes et suivi de candidatures, graphiques d'activités ou rapport de diagnostic. |
+
+Les fichiers, formats et opérations externes dépendent de la demande et des outils disponibles. Un PDF, une vidéo, une publication ou un paquet ne sont annoncés comme réalisés qu'après leur production ou vérification.
+
 ## Parcourir la bibliothèque
 
 | Genre | Contenu | Nombre |
@@ -99,15 +147,19 @@ Le script refuse toute collision de nom ; il ne remplace pas une installation ex
 
 Les emplacements locaux suivent la [documentation officielle OpenAI](https://learn.chatgpt.com/docs/build-skills). Certains clients disposent de leur propre importeur. Codex détecte les changements ; redémarrer le client si le skill n'apparaît pas.
 
-## Utiliser
+## Architecture de la bibliothèque
 
-```text
-Utilise $preparer-seance-photo pour préparer cette séance et son livret de poses.
-Utilise $preparer-fiches-marketplaces pour préparer cette référence à partir des sources jointes.
-Utilise $transcrire-reunion-et-actions pour produire le compte rendu de cette transcription.
-```
+Le dépôt organise les skills par genre, puis par dossier autonome. Le classement sert à parcourir la bibliothèque ; l'installateur copie les dossiers de skills sélectionnés dans la destination choisie.
 
-L'invocation implicite reste disponible pour les skills personnels. Les imports OpenAI conservent leurs instructions et métadonnées d'origine. Leur langue de rédaction peut rester l'anglais ; demander une restitution en français si nécessaire.
+| Élément | Rôle |
+| --- | --- |
+| [skills/](skills) | Genres et dossiers de skills avec README, instructions et ressources. |
+| [catalogue.json](catalogue.json) | Noms, chemins, origine et métadonnées de la bibliothèque. |
+| [CATALOGUE.md](CATALOGUE.md) | Navigation vers les guides des skills. |
+| [docs/](docs) | Exemples, recette et guides complémentaires. |
+| [scripts/](scripts) | Installation locale et validation de la bibliothèque. |
+| [tests/](tests) | Vérification des scripts et des invariants de la bibliothèque. |
+| [sources.lock.json](sources.lock.json) | Empreintes des reprises, imports et documentations locales déclarées. |
 
 ## Capacités nécessaires
 

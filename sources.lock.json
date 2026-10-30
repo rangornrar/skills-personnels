@@ -12,9 +12,16 @@
         "agents/openai.yaml": "63efa67912b4fc00df6e0c303dc4af219438151663eedf0ea036cf04a41e1881",
         "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
         "LICENSE": "392fb69570d58eae0c719e1fc5b200a813fb2c229dbf27f568372def285f63ed",
-        "README.md": "ef2b7d99d42e0aa6f84c0de54a0bd8a945ec978c4c1af42cb753835719654ba8",
+        "README.md": "f8bacd1f7801f7ae6070c6d704069b59e8c55870abd9673c73a4db0aafe003ad",
         "SKILL.md": "acba9c70e10c0a6015b9f33adb3d6ea0309c2a42ba227206431ddbe7b49b875d"
-      }
+      },
+      "local_modifications": [
+        {
+          "path": "README.md",
+          "source_sha256": "ef2b7d99d42e0aa6f84c0de54a0bd8a945ec978c4c1af42cb753835719654ba8",
+          "description": "Guide réorganisé : usage et sorties avant installation, sommaire ajouté."
+        }
+      ]
     },
     {
       "name": "concevoir-ameliorer-ui-ux",
@@ -25,7 +32,7 @@
       "files_sha256": {
         "agents/openai.yaml": "62f84c055e1f6aeeeee0bc358e4515f71188e4f050e205e7881f558acd0996ab",
         "SKILL.md": "8065bd7fc8ec15094ee7d29d0dca92ec1fae007519862a9e65772e5e908005d6",
-        "README.md": "242fff5dbc10597928604ef4d41d61901f5e9aae12d01cae160c51a5002bfd4e"
+        "README.md": "d26ec846f0f56b5674b3ae179d0f12d6a4bac9958783c201afc94815529c0537"
       },
       "local_additions": [
         "README.md"
@@ -43,7 +50,7 @@
         "references/domaines.md": "ce376a64154aa02073351858ac10155e908139d6afca2fd0ea36f199f8e6b059",
         "references/plan-dossier.md": "6ed2b26c6b48e8c4943cf77734610926615bb587492f63699e583aaa101bb6eb",
         "SKILL.md": "2c5cb1dca7e1112ab0af6c27a0028cfedfba723ab3c2f186f9a28f4f73da1b94",
-        "README.md": "b32f2ef995ee9b4458ccb09428bf565155d12eb32ed9c739ea9e0d2f0eaf824b"
+        "README.md": "caab05dfb5a233de129a6d8c9191560aeb5a1cceac2d150b1e21624001b7dbdd"
       },
       "local_additions": [
         "README.md"
@@ -63,7 +70,7 @@
         "LICENSE.txt": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
         "scripts/fetch_comments.py": "d7bc64f6b26f7482f9ca9dd7c923a5b8b20e1ef13491ae2d9052cd208a7c1ad1",
         "SKILL.md": "77389eefd3fb6584210668ca8e43f4b8de87e7722ddd953474bc9e24cdfaaedd",
-        "README.md": "187af5df364d281d19a7e12d7030474f90d67dc266f5d4174d8fdc9c27c34fb9"
+        "README.md": "3fd7de7fa0723f37ddf0c3a9ec8b93e59b312f6914bd8e52dc3e948236ba2c6f"
       },
       "local_additions": [
         "README.md"
@@ -83,7 +90,7 @@
         "LICENSE.txt": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
         "scripts/inspect_pr_checks.py": "9459e5b03f86785d184a83e5cd8d621b832e918ec04158a2962d867785812c6c",
         "SKILL.md": "7b326b4a2f0f5f85122144628ec02077e48841e0e0e82efce88b3415bcfb7c26",
-        "README.md": "6fbeae1259e39de7fde8e66d96dc5110dc55301f7dd4ccb406f29d2b6747801d"
+        "README.md": "4b8c56888208aa91ef3e4b60eec5420291a1106e02b7c20f9344e3ea5f6885fa"
       },
       "local_additions": [
         "README.md"
@@ -110,7 +117,7 @@
         "references/python-fastapi-web-server-security.md": "7383c7f4fc271190b05e562ada7e825982a2c76b6c79a9f95a1da7687b65a616",
         "references/python-flask-web-server-security.md": "9606d69190c04c167fdeac57e61297547a57b0542fd89dede36f355970446929",
         "SKILL.md": "7b3dae1ffc5434d890f3c65c8f552af52d0307fab3b35dec13013c9ca3844c4f",
-        "README.md": "b4056ac1ab1e885a9b033f157519f1059cb1d6694998273b36f57ec4e97a1488"
+        "README.md": "e7f071c35dac4ec94b0cf24cdfa12e208fa827e79cc446de64aa7516f642aab2"
       },
       "local_additions": [
         "README.md"
@@ -129,7 +136,7 @@
         "references/prompt-template.md": "81a59aa3fb3ac3a739d6a26ab38e4015965f215581ee54becef21a2b121ec29b",
         "references/security-controls-and-assets.md": "d536cfa9acad2523dc39134bcf33b9566c29dd9a57b407cbc9901637230c6b98",
         "SKILL.md": "1283c0dd62a8104d9edda4583569b5d8510b4ddaa45120687c999250fd96bad2",
-        "README.md": "05cdde71deaaa4205526fdcf4566b962b4c28b8c1d8bf71954d687b623c099cd"
+        "README.md": "7a98063d8d896c04321b2dbef1fbd2fe5310d4a491df103d0d4b6f9ba4d791ba"
       },
       "local_additions": [
         "README.md"

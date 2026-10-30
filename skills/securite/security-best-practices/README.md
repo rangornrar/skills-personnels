@@ -1,27 +1,41 @@
 # Revue des pratiques de sécurité
 
-## But
-
 Examiner les pratiques de sécurité du code ou guider une implémentation plus sûre à partir des langages et frameworks réellement présents.
 
-## Quand l'utiliser
+## Sommaire
+
+- [À quoi cela sert](#à-quoi-cela-sert)
+- [Comment l'utiliser](#comment-lutiliser)
+- [Sorties attendues](#sorties-attendues)
+- [Installation](#installation)
+- [Fonctionnement détaillé](#fonctionnement-détaillé)
+- [Architecture et ressources](#architecture-et-ressources)
+- [Limites et contrôles](#limites-et-contrôles)
+- [Licence](#licence)
+
+## À quoi cela sert
 
 Sur demande explicite de revue ou de conseils de sécurité, pour Python, JavaScript/TypeScript et Go. Le périmètre documenté ne couvre pas directement PHP ou C#.
 
-## Informations à fournir
+## Comment l'utiliser
+
+Décrire la tâche et le résultat souhaité, puis fournir les éléments ci-dessous. Adapter l'exemple au contexte réel.
+
+### Informations à fournir
 
 - Dépôt ou chemins concernés, langages, frameworks et contexte d'usage disponibles.
 - Objectif : recommandations, rapport ou correction d'un problème identifié.
 - Contraintes du projet et procédure de test/revue à respecter.
 
-## Fonctionnement
+### Exemple de demande
 
-1. Identifier la stack et consulter les références de sécurité applicables.
-2. Examiner le code et relier les constats à des emplacements précis.
-3. Prioriser les problèmes et expliquer leurs conséquences concrètes.
-4. Pour un rapport, le rédiger puis présenter la synthèse ; traiter les corrections autorisées sans ignorer les risques de régression.
+```text
+Utilise $security-best-practices pour produire une revue
+de sécurité de cette application Python. Relie chaque constat
+au code et classe les corrections par gravité et impact.
+```
 
-## Livrables attendus (outputs)
+## Sorties attendues
 
 | Livrable | Contenu | Format et condition |
 | --- | --- | --- |
@@ -31,22 +45,44 @@ Sur demande explicite de revue ou de conseils de sécurité, pour Python, JavaSc
 
 Les formats de fichiers dépendent des outils disponibles. Les fichiers annoncés doivent avoir été réellement créés ; un format facultatif n'est pas un livrable garanti.
 
-## Exemple de demande
+## Installation
 
-```text
-Utilise $security-best-practices pour produire une revue
-de sécurité de cette application Python. Relie chaque constat
-au code et classe les corrections par gravité et impact.
+Suivre le [guide d'installation de la bibliothèque](../../../README.md#installer-les-skills-utiles) pour choisir la méthode adaptée : ChatGPT sur le site web, skill-installer de Codex ou copie locale.
+
+Depuis la racine d'une copie locale de la bibliothèque :
+
+```sh
+python scripts/install_local.py --skill security-best-practices
+python scripts/install_local.py --skill security-best-practices --apply
 ```
+
+La première commande affiche les copies prévues ; la seconde les effectue. Un dossier déjà présent n'est pas écrasé.
+
+## Fonctionnement détaillé
+
+1. Identifier la stack et consulter les références de sécurité applicables.
+2. Examiner le code et relier les constats à des emplacements précis.
+3. Prioriser les problèmes et expliquer leurs conséquences concrètes.
+4. Pour un rapport, le rédiger puis présenter la synthèse ; traiter les corrections autorisées sans ignorer les risques de régression.
+
+## Architecture et ressources
+
+| Ressource | Rôle |
+| --- | --- |
+| [README.md](README.md) | Guide utilisateur : usage, sorties et installation. |
+| [SKILL.md](SKILL.md) | Instructions suivies par l’assistant et critères de déclenchement. |
+| [agents/openai.yaml](agents/openai.yaml) | Nom affiché, invite de départ et métadonnées d’interface. |
+| [references/](references) | Références consultées lorsque le workflow en a besoin. |
+
+### Pour approfondir
+
+- [Références de sécurité](references).
+- [Catalogue général](../../../CATALOGUE.md).
 
 ## Limites et contrôles
 
 Le rapport décrit les éléments examinés et ne certifie pas l'absence de vulnérabilités. Le skill amont prévoit une étape de lecture/accord avant la correction après rapport. Ce README français est local ; les références et instructions OpenAI sont conservées.
 
-## Ressources et installation
+## Licence
 
-- [Instructions de référence](SKILL.md).
-- [Références de sécurité](references).
-- [Installation dans la bibliothèque et sur ChatGPT](../../../README.md#installer-les-skills-utiles).
-- [Catalogue général](../../../CATALOGUE.md).
-- [Licence Apache 2.0 des fichiers importés](LICENSE.txt). Ce README français est une documentation locale sous [licence MIT](../../../LICENSE).
+Documentation locale sous [licence MIT](../../../LICENSE). Les fichiers importés d’OpenAI conservent leur [licence Apache 2.0](LICENSE.txt) et leurs avis d’origine.

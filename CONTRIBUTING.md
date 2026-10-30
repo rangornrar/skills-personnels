@@ -8,6 +8,8 @@ Pour un nouveau skill, créer `skills/<genre>/<nom>/SKILL.md` avec un nom unique
 
 Ajouter aussi un `README.md` pour les utilisateurs : but, cas d'usage, informations à fournir, fonctionnement, livrables avec formats et conditions, exemple, limites et liens utiles. Distinguer les formats facultatifs des outputs systématiques. Le guide décrit le workflow ; les instructions de référence restent dans `SKILL.md`.
 
+Organiser le README autour du lecteur : d'abord l'utilité, l'utilisation avec exemple et les sorties ; ensuite l'installation, le fonctionnement détaillé, l'architecture et les détails techniques. Ajouter un sommaire avec des liens vers les sections. Le README d'entrée de la bibliothèque suit la même logique.
+
 ## Tenir le catalogue
 
 Mettre à jour `catalogue.json`, `CATALOGUE.md`, les exemples et le changelog pour tout ajout ou déplacement. Un dossier de genre ne constitue pas un skill et ne contient pas de `SKILL.md`.
@@ -21,6 +23,8 @@ Les trois reprises personnelles sont identifiées dans `sources.lock.json`. Une 
 Pour les imports OpenAI, préférer une mise à jour depuis une révision amont. Conserver licences, assets et scripts. Si une adaptation locale devient nécessaire, la déclarer dans le catalogue et les attributions au lieu de présenter l'import comme inchangé.
 
 Les README français sont des ajouts locaux identifiés dans `sources.lock.json` par `local_additions`. Après modification d'un de ces guides, actualiser son empreinte uniquement ; conserver celles des fichiers amont inchangés.
+
+Lorsqu'un README déjà présent dans une reprise est adapté, déclarer la modification dans `local_modifications` avec son empreinte d'origine. Ne pas présenter cette adaptation comme une copie inchangée.
 
 ## Vérifier
 

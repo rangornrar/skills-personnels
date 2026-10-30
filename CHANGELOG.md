@@ -1,5 +1,12 @@
 # Historique
 
+## 2026-10-30 — Lecture centrée sur l'usage
+
+- Réorganisation des dix-neuf README : utilité, utilisation et sorties avant installation et détails techniques.
+- Ajout d'un sommaire lié aux sections dans chaque README.
+- Ajout de repères sur l'architecture des dossiers, après les informations utilisateur.
+- Déclaration de l'adaptation du README historique d'analyse critique ; conservation des instructions des skills.
+
 ## 2026-10-30 — Guides par skill
 
 - Ajout de dix-sept README détaillant le but, les entrées, le fonctionnement, les livrables, un exemple et les limites de chaque workflow ; conservation du README existant d'analyse critique.

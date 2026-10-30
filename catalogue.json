@@ -24,7 +24,8 @@
       "summary": "Comparer les preuves, options, objections et risques.",
       "source": "https://github.com/rangornrar/analyse-critique-decision",
       "source_type": "copie-locale-de-reference",
-      "readme": "skills/strategie-et-conception/analyse-critique-decision/README.md"
+      "readme": "skills/strategie-et-conception/analyse-critique-decision/README.md",
+      "documentation": "README réorganisé localement ; instructions de référence inchangées"
     },
     {
       "name": "concevoir-ameliorer-ui-ux",
