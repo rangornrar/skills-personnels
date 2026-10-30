@@ -54,6 +54,8 @@ def validate(root=ROOT):
         base = root / entry['path']
         manifest = base / 'SKILL.md'
         try:
+            if entry.get('readme') != entry['path'] + '/README.md' or not (base / 'README.md').is_file():
+                raise ValueError('README utilisateur absent ou chemin incohérent dans le catalogue')
             text = manifest.read_text(encoding='utf-8')
             match = re.match(r'\A---\n(.*?)\n---(?:\n|$)', text, re.S)
             if not match:
@@ -122,7 +124,7 @@ def validate(root=ROOT):
         try:
             if path.suffix in ('.yaml', '.yml'):
                 yaml.safe_load(path.read_text(encoding='utf-8'))
-            if path.suffix == '.md' and not any(path.is_relative_to(d) for d in imported_dirs):
+            if path.suffix == '.md' and (path.name == 'README.md' or not any(path.is_relative_to(d) for d in imported_dirs)):
                 for target in links_in(path.read_text(encoding='utf-8')):
                     parsed = urlsplit(target.strip('<>'))
                     if parsed.scheme or parsed.netloc or not parsed.path:

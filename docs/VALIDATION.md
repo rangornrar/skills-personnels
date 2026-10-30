@@ -6,6 +6,8 @@
 
 Les liens Web ne sont pas interrogés et les ancres internes ne sont pas validées. Les liens d'exemples dans les références tierces peuvent être des modèles ; leur documentation est conservée telle quelle et protégée par empreinte. La validation ne contacte aucun service métier et n'exécute pas les scripts GitHub importés.
 
+Chaque entrée du catalogue doit aussi désigner un `README.md` existant. Les liens locaux des guides français sont contrôlés, y compris dans les dossiers importés. Les guides ajoutés aux imports sont déclarés dans `local_additions` et leur empreinte est suivie séparément de la provenance des fichiers amont.
+
 Les tests vérifient le refus des collisions avant installation, les sélections par nom/genre, le mode simulation, la copie complète des ressources et la détection d'un import altéré ou d'une cible locale absente. Ils travaillent dans des dossiers temporaires.
 
 ## Recette des nouveaux skills

@@ -23,6 +23,8 @@ Source : [openai/skills](https://github.com/openai/skills), révision [`49f948fa
 | security-best-practices | `skills/.curated/security-best-practices` | [Apache 2.0](skills/securite/security-best-practices/LICENSE.txt) |
 | security-threat-model | `skills/.curated/security-threat-model` | [Apache 2.0](skills/securite/security-threat-model/LICENSE.txt) |
 
-Les dossiers importés sont conservés sans modification. La licence MIT racine ne remplace pas leurs licences. Les empreintes SHA-256 de tous les fichiers importés et des trois reprises figurent dans [sources.lock.json](sources.lock.json). Elles permettent de détecter une modification locale ; elles ne constituent pas une signature de l'éditeur.
+Les fichiers amont importés sont conservés sans modification. Un `README.md` français a été ajouté localement dans chacun des quatre dossiers pour expliquer le but, le fonctionnement et les livrables ; ces guides locaux sont sous licence MIT et ne remplacent pas les instructions amont. La licence MIT racine ne remplace pas les licences des fichiers importés.
+
+Les empreintes SHA-256 des fichiers importés, des trois reprises et des guides ajoutés figurent dans [sources.lock.json](sources.lock.json). Le champ `local_additions` distingue les documentations locales des fichiers d'origine. Le README déjà présent d'`analyse-critique-decision` a été conservé ; les deux autres reprises ont reçu un guide local. Les empreintes détectent les changements ; elles ne constituent pas une signature de l'éditeur.
 
 Pour mettre à jour un import, récupérer une révision explicite, examiner les changements et avis de licence, puis actualiser catalogue et empreintes. Ne pas corriger silencieusement les fichiers importés tout en les déclarant inchangés.

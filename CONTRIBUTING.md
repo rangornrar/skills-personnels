@@ -6,6 +6,8 @@ Une modification de méthode appartient au skill concerné. Une règle propre à
 
 Pour un nouveau skill, créer `skills/<genre>/<nom>/SKILL.md` avec un nom unique, une description de déclenchement précise et des instructions utiles. Ajouter seulement les références réellement nécessaires. Les métadonnées d'interface se trouvent dans `agents/openai.yaml`.
 
+Ajouter aussi un `README.md` pour les utilisateurs : but, cas d'usage, informations à fournir, fonctionnement, livrables avec formats et conditions, exemple, limites et liens utiles. Distinguer les formats facultatifs des outputs systématiques. Le guide décrit le workflow ; les instructions de référence restent dans `SKILL.md`.
+
 ## Tenir le catalogue
 
 Mettre à jour `catalogue.json`, `CATALOGUE.md`, les exemples et le changelog pour tout ajout ou déplacement. Un dossier de genre ne constitue pas un skill et ne contient pas de `SKILL.md`.
@@ -17,6 +19,8 @@ Les créations sont en français et UTF-8. Les exemples sont fictifs ou anonymis
 Les trois reprises personnelles sont identifiées dans `sources.lock.json`. Une évolution est possible mais doit être décrite et les empreintes mises à jour explicitement après revue.
 
 Pour les imports OpenAI, préférer une mise à jour depuis une révision amont. Conserver licences, assets et scripts. Si une adaptation locale devient nécessaire, la déclarer dans le catalogue et les attributions au lieu de présenter l'import comme inchangé.
+
+Les README français sont des ajouts locaux identifiés dans `sources.lock.json` par `local_additions`. Après modification d'un de ces guides, actualiser son empreinte uniquement ; conserver celles des fichiers amont inchangés.
 
 ## Vérifier
 

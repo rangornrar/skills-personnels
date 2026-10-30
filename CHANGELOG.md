@@ -1,5 +1,12 @@
 # Historique
 
+## 2026-10-30 — Guides par skill
+
+- Ajout de dix-sept README détaillant le but, les entrées, le fonctionnement, les livrables, un exemple et les limites de chaque workflow ; conservation du README existant d'analyse critique.
+- Navigation du catalogue vers les dix-huit guides et référencement dans le catalogue JSON.
+- Documentation française locale des imports OpenAI, identifiée séparément des fichiers amont conservés.
+- Contrôle de la présence des guides et de leurs liens locaux.
+
 ## 2026-10-30 — Première bibliothèque
 
 - Regroupement de trois skills personnels existants, avec leurs ressources locales.

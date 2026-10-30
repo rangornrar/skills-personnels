@@ -24,8 +24,12 @@
       "path": "skills/strategie-et-conception/concevoir-ameliorer-ui-ux",
       "files_sha256": {
         "agents/openai.yaml": "62f84c055e1f6aeeeee0bc358e4515f71188e4f050e205e7881f558acd0996ab",
-        "SKILL.md": "8065bd7fc8ec15094ee7d29d0dca92ec1fae007519862a9e65772e5e908005d6"
-      }
+        "SKILL.md": "8065bd7fc8ec15094ee7d29d0dca92ec1fae007519862a9e65772e5e908005d6",
+        "README.md": "242fff5dbc10597928604ef4d41d61901f5e9aae12d01cae160c51a5002bfd4e"
+      },
+      "local_additions": [
+        "README.md"
+      ]
     },
     {
       "name": "specifier-projet",
@@ -38,8 +42,12 @@
         "assets/icon.svg": "51a6923974188748638a424aa59b42b6afad2d910f910a1d43bb13ee10f3ce26",
         "references/domaines.md": "ce376a64154aa02073351858ac10155e908139d6afca2fd0ea36f199f8e6b059",
         "references/plan-dossier.md": "6ed2b26c6b48e8c4943cf77734610926615bb587492f63699e583aaa101bb6eb",
-        "SKILL.md": "2c5cb1dca7e1112ab0af6c27a0028cfedfba723ab3c2f186f9a28f4f73da1b94"
-      }
+        "SKILL.md": "2c5cb1dca7e1112ab0af6c27a0028cfedfba723ab3c2f186f9a28f4f73da1b94",
+        "README.md": "b32f2ef995ee9b4458ccb09428bf565155d12eb32ed9c739ea9e0d2f0eaf824b"
+      },
+      "local_additions": [
+        "README.md"
+      ]
     },
     {
       "name": "gh-address-comments",
@@ -54,8 +62,12 @@
         "assets/github.png": "d55a9baa41798d8b5108e3058df3a5bda09914ea9fd73b49929cc38a8832424f",
         "LICENSE.txt": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
         "scripts/fetch_comments.py": "d7bc64f6b26f7482f9ca9dd7c923a5b8b20e1ef13491ae2d9052cd208a7c1ad1",
-        "SKILL.md": "77389eefd3fb6584210668ca8e43f4b8de87e7722ddd953474bc9e24cdfaaedd"
-      }
+        "SKILL.md": "77389eefd3fb6584210668ca8e43f4b8de87e7722ddd953474bc9e24cdfaaedd",
+        "README.md": "187af5df364d281d19a7e12d7030474f90d67dc266f5d4174d8fdc9c27c34fb9"
+      },
+      "local_additions": [
+        "README.md"
+      ]
     },
     {
       "name": "gh-fix-ci",
@@ -70,8 +82,12 @@
         "assets/github.png": "d55a9baa41798d8b5108e3058df3a5bda09914ea9fd73b49929cc38a8832424f",
         "LICENSE.txt": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
         "scripts/inspect_pr_checks.py": "9459e5b03f86785d184a83e5cd8d621b832e918ec04158a2962d867785812c6c",
-        "SKILL.md": "7b326b4a2f0f5f85122144628ec02077e48841e0e0e82efce88b3415bcfb7c26"
-      }
+        "SKILL.md": "7b326b4a2f0f5f85122144628ec02077e48841e0e0e82efce88b3415bcfb7c26",
+        "README.md": "6fbeae1259e39de7fde8e66d96dc5110dc55301f7dd4ccb406f29d2b6747801d"
+      },
+      "local_additions": [
+        "README.md"
+      ]
     },
     {
       "name": "security-best-practices",
@@ -93,8 +109,12 @@
         "references/python-django-web-server-security.md": "4fb69b5d45f10e588d1a8c35cdc5f59e18910f6b46a93e2d342d90f286f8dfd2",
         "references/python-fastapi-web-server-security.md": "7383c7f4fc271190b05e562ada7e825982a2c76b6c79a9f95a1da7687b65a616",
         "references/python-flask-web-server-security.md": "9606d69190c04c167fdeac57e61297547a57b0542fd89dede36f355970446929",
-        "SKILL.md": "7b3dae1ffc5434d890f3c65c8f552af52d0307fab3b35dec13013c9ca3844c4f"
-      }
+        "SKILL.md": "7b3dae1ffc5434d890f3c65c8f552af52d0307fab3b35dec13013c9ca3844c4f",
+        "README.md": "b4056ac1ab1e885a9b033f157519f1059cb1d6694998273b36f57ec4e97a1488"
+      },
+      "local_additions": [
+        "README.md"
+      ]
     },
     {
       "name": "security-threat-model",
@@ -108,8 +128,12 @@
         "LICENSE.txt": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
         "references/prompt-template.md": "81a59aa3fb3ac3a739d6a26ab38e4015965f215581ee54becef21a2b121ec29b",
         "references/security-controls-and-assets.md": "d536cfa9acad2523dc39134bcf33b9566c29dd9a57b407cbc9901637230c6b98",
-        "SKILL.md": "1283c0dd62a8104d9edda4583569b5d8510b4ddaa45120687c999250fd96bad2"
-      }
+        "SKILL.md": "1283c0dd62a8104d9edda4583569b5d8510b4ddaa45120687c999250fd96bad2",
+        "README.md": "05cdde71deaaa4205526fdcf4566b962b4c28b8c1d8bf71954d687b623c099cd"
+      },
+      "local_additions": [
+        "README.md"
+      ]
     }
   ]
 }

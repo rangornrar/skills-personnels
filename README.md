@@ -23,6 +23,8 @@ Les skills portent les méthodes de travail et critères de qualité. Les logici
 
 Consulter le [catalogue détaillé](CATALOGUE.md), les [exemples d'utilisation](docs/EXEMPLES.md) ou le [catalogue JSON](catalogue.json) pour choisir un skill.
 
+Chaque skill possède un `README.md` qui explique son but, les informations à fournir, son fonctionnement et ses livrables attendus, avec un exemple et les limites utiles. Les liens du catalogue ouvrent ces guides ; les instructions de référence restent dans `SKILL.md`.
+
 ## Installer les skills utiles
 
 Choisir la méthode adaptée : [ChatGPT sur le site web](#sur-chatgpt-site-web), installation par le skill-installer dans Codex ou copie locale.

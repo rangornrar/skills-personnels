@@ -23,7 +23,8 @@
       "license": "MIT",
       "summary": "Comparer les preuves, options, objections et risques.",
       "source": "https://github.com/rangornrar/analyse-critique-decision",
-      "source_type": "copie-locale-de-reference"
+      "source_type": "copie-locale-de-reference",
+      "readme": "skills/strategie-et-conception/analyse-critique-decision/README.md"
     },
     {
       "name": "concevoir-ameliorer-ui-ux",
@@ -35,7 +36,8 @@
       "license": "MIT",
       "summary": "Observer les parcours et proposer des améliorations argumentées.",
       "source": "https://github.com/rangornrar/concevoir-ameliorer-ui-ux",
-      "source_type": "copie-locale-de-reference"
+      "source_type": "copie-locale-de-reference",
+      "readme": "skills/strategie-et-conception/concevoir-ameliorer-ui-ux/README.md"
     },
     {
       "name": "specifier-projet",
@@ -47,7 +49,8 @@
       "license": "MIT",
       "summary": "Conduire l’entretien, l’audit et la consolidation du dossier PDF.",
       "source": "https://github.com/rangornrar/specifier-projet",
-      "source_type": "copie-locale-de-reference"
+      "source_type": "copie-locale-de-reference",
+      "readme": "skills/strategie-et-conception/specifier-projet/README.md"
     },
     {
       "name": "preparer-seance-photo",
@@ -59,7 +62,8 @@
       "license": "MIT",
       "summary": "Brief, poses, éclairages et livret de séance",
       "example": "Prépare une séance de portraits avec deux éclairages, puis un livret de poses regroupées par catégorie.",
-      "expectation": "La séance s’appuie sur le matériel confirmé ; les réglages proposés sont à calibrer."
+      "expectation": "La séance s’appuie sur le matériel confirmé ; les réglages proposés sont à calibrer.",
+      "readme": "skills/photo-et-visuels/preparer-seance-photo/README.md"
     },
     {
       "name": "produire-visuels-produits",
@@ -71,7 +75,8 @@
       "license": "MIT",
       "summary": "Packshots fidèles, proportions et déclinaisons",
       "example": "Prépare un visuel sur fond blanc à partir des photos de ce coffret, en conservant les proportions des bocaux.",
-      "expectation": "Composition et dimensions relatives restent fidèles ; une cote inconnue est signalée."
+      "expectation": "Composition et dimensions relatives restent fidèles ; une cote inconnue est signalée.",
+      "readme": "skills/photo-et-visuels/produire-visuels-produits/README.md"
     },
     {
       "name": "piloter-ca-et-marges",
@@ -83,7 +88,8 @@
       "license": "MIT",
       "summary": "Réalisé, prévisions et marges par canal",
       "example": "Rapproche les factures et commandes jointes puis construis un atterrissage par canal, en séparant CA et marge.",
-      "expectation": "Les ventes ne sont comptées qu’une fois ; les assiettes des frais et les hypothèses sont visibles."
+      "expectation": "Les ventes ne sont comptées qu’une fois ; les assiettes des frais et les hypothèses sont visibles.",
+      "readme": "skills/commerce/piloter-ca-et-marges/README.md"
     },
     {
       "name": "preparer-fiches-marketplaces",
@@ -95,7 +101,8 @@
       "license": "MIT",
       "summary": "Fiches sourcées, attributs et nutrition contrôlés",
       "example": "Prépare la fiche Amazon de ce coffret à partir des données jointes et vérifie la base des valeurs nutritionnelles.",
-      "expectation": "Les valeurs par portion et pour 100 g sont distinguées ; aucun attribut produit n’est inventé."
+      "expectation": "Les valeurs par portion et pour 100 g sont distinguées ; aucun attribut produit n’est inventé.",
+      "readme": "skills/commerce/preparer-fiches-marketplaces/README.md"
     },
     {
       "name": "produire-contenus-editoriaux",
@@ -107,7 +114,8 @@
       "license": "MIT",
       "summary": "Sources, scripts et packs de publication",
       "example": "Prépare un épisode de trois actualités vérifiées sur la période indiquée, avec audio, visuels et sources séparés.",
-      "expectation": "Les événements sont vérifiés ; un script n’est pas annoncé comme une vidéo terminée."
+      "expectation": "Les événements sont vérifiés ; un script n’est pas annoncé comme une vidéo terminée.",
+      "readme": "skills/communication-et-editorial/produire-contenus-editoriaux/README.md"
     },
     {
       "name": "rediger-messages-professionnels",
@@ -119,7 +127,8 @@
       "license": "MIT",
       "summary": "Messages simples, courts et prêts à utiliser",
       "example": "Raccourcis cette réponse client, garde un ton courtois et n’ajoute aucun engagement.",
-      "expectation": "Le message garde l’identité et les chiffres exacts, sans promesse ajoutée."
+      "expectation": "Le message garde l’identité et les chiffres exacts, sans promesse ajoutée.",
+      "readme": "skills/communication-et-editorial/rediger-messages-professionnels/README.md"
     },
     {
       "name": "transcrire-reunion-et-actions",
@@ -131,7 +140,8 @@
       "license": "MIT",
       "summary": "Transcription, décisions et actions traçables",
       "example": "À partir de cette transcription, prépare un compte rendu et un tableau des décisions et actions avec leurs sources.",
-      "expectation": "Les ambitions et décisions restent distinctes ; les responsables ou échéances absents ne sont pas inventés."
+      "expectation": "Les ambitions et décisions restent distinctes ; les responsables ou échéances absents ne sont pas inventés.",
+      "readme": "skills/communication-et-editorial/transcrire-reunion-et-actions/README.md"
     },
     {
       "name": "gh-address-comments",
@@ -139,12 +149,14 @@
       "genre": "developpement",
       "path": "skills/developpement/gh-address-comments",
       "origin": "openai",
-      "status": "importe-sans-modification",
+      "status": "importe-avec-documentation-locale",
       "license": "Apache-2.0",
       "summary": "Traitement des commentaires de revue de PR ; nécessite gh authentifié.",
       "source": "https://github.com/openai/skills",
       "source_path": "skills/.curated/gh-address-comments",
-      "source_ref": "49f948faa9258a0c61caceaf225e179651397431"
+      "source_ref": "49f948faa9258a0c61caceaf225e179651397431",
+      "readme": "skills/developpement/gh-address-comments/README.md",
+      "documentation": "README français ajouté localement ; fichiers amont inchangés"
     },
     {
       "name": "gh-fix-ci",
@@ -152,12 +164,14 @@
       "genre": "developpement",
       "path": "skills/developpement/gh-fix-ci",
       "origin": "openai",
-      "status": "importe-sans-modification",
+      "status": "importe-avec-documentation-locale",
       "license": "Apache-2.0",
       "summary": "Diagnostic des checks GitHub Actions de pull requests ; nécessite gh authentifié.",
       "source": "https://github.com/openai/skills",
       "source_path": "skills/.curated/gh-fix-ci",
-      "source_ref": "49f948faa9258a0c61caceaf225e179651397431"
+      "source_ref": "49f948faa9258a0c61caceaf225e179651397431",
+      "readme": "skills/developpement/gh-fix-ci/README.md",
+      "documentation": "README français ajouté localement ; fichiers amont inchangés"
     },
     {
       "name": "livrer-application-windows",
@@ -169,7 +183,8 @@
       "license": "MIT",
       "summary": "Tests, versions, paquets et releases vérifiés",
       "example": "Prépare le paquet de livraison de cette application et ses notes ; indique les essais réellement effectués.",
-      "expectation": "Le commit, la version et le paquet concordent ; les contrôles non réalisés sont nommés."
+      "expectation": "Le commit, la version et le paquet concordent ; les contrôles non réalisés sont nommés.",
+      "readme": "skills/developpement/livrer-application-windows/README.md"
     },
     {
       "name": "security-best-practices",
@@ -177,12 +192,14 @@
       "genre": "securite",
       "path": "skills/securite/security-best-practices",
       "origin": "openai",
-      "status": "importe-sans-modification",
+      "status": "importe-avec-documentation-locale",
       "license": "Apache-2.0",
       "summary": "Revue pour Python, JavaScript/TypeScript et Go ; ne couvre pas directement PHP/C#.",
       "source": "https://github.com/openai/skills",
       "source_path": "skills/.curated/security-best-practices",
-      "source_ref": "49f948faa9258a0c61caceaf225e179651397431"
+      "source_ref": "49f948faa9258a0c61caceaf225e179651397431",
+      "readme": "skills/securite/security-best-practices/README.md",
+      "documentation": "README français ajouté localement ; fichiers amont inchangés"
     },
     {
       "name": "security-threat-model",
@@ -190,12 +207,14 @@
       "genre": "securite",
       "path": "skills/securite/security-threat-model",
       "origin": "openai",
-      "status": "importe-sans-modification",
+      "status": "importe-avec-documentation-locale",
       "license": "Apache-2.0",
       "summary": "Analyse des actifs, frontières de confiance et scénarios d’abus à partir du dépôt.",
       "source": "https://github.com/openai/skills",
       "source_path": "skills/.curated/security-threat-model",
-      "source_ref": "49f948faa9258a0c61caceaf225e179651397431"
+      "source_ref": "49f948faa9258a0c61caceaf225e179651397431",
+      "readme": "skills/securite/security-threat-model/README.md",
+      "documentation": "README français ajouté localement ; fichiers amont inchangés"
     },
     {
       "name": "rechercher-emploi-et-candidatures",
@@ -207,7 +226,8 @@
       "license": "MIT",
       "summary": "Annonces vérifiées, candidatures et suivi",
       "example": "Trouve des pistes pour ce CV dans la zone demandée et distingue postes ouverts et candidatures spontanées.",
-      "expectation": "Une entreprise cible n’est pas présentée comme un poste ouvert ; aucune expérience n’est ajoutée au CV."
+      "expectation": "Une entreprise cible n’est pas présentée comme un poste ouvert ; aucune expérience n’est ajoutée au CV.",
+      "readme": "skills/emploi/rechercher-emploi-et-candidatures/README.md"
     },
     {
       "name": "analyser-export-strava",
@@ -219,7 +239,8 @@
       "license": "MIT",
       "summary": "Tendances, périodes comparables et graphiques",
       "example": "Compare les six derniers mois et les vingt derniers jours de cet export, en séparant course et marche.",
-      "expectation": "Les périodes et unités sont contrôlées ; les données absentes ne deviennent pas des zéros."
+      "expectation": "Les périodes et unités sont contrôlées ; les données absentes ne deviennent pas des zéros.",
+      "readme": "skills/sport/analyser-export-strava/README.md"
     },
     {
       "name": "diagnostiquer-windows-et-dossiers",
@@ -231,7 +252,8 @@
       "license": "MIT",
       "summary": "Diagnostic PC et comparaison de fichiers",
       "example": "Compare ces deux dossiers après clonage et explique les écarts, sans modifier les fichiers sources.",
-      "expectation": "Les fichiers illisibles sont signalés ; taille et date seules ne prouvent pas l’identité du contenu."
+      "expectation": "Les fichiers illisibles sont signalés ; taille et date seules ne prouvent pas l’identité du contenu.",
+      "readme": "skills/windows/diagnostiquer-windows-et-dossiers/README.md"
     }
   ]
 }
