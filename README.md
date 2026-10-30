@@ -25,9 +25,45 @@ Consulter le [catalogue détaillé](CATALOGUE.md), les [exemples d'utilisation](
 
 ## Installer les skills utiles
 
-Le classement par genre appartient au dépôt. À l'installation, chaque dossier de skill est placé directement dans le répertoire de découverte du client ; ne pas copier uniquement les fichiers `SKILL.md`.
+Choisir la méthode adaptée : [ChatGPT sur le site web](#sur-chatgpt-site-web), installation par le skill-installer dans Codex ou copie locale.
 
-### Avec le skill-installer
+### Sur ChatGPT (site web)
+
+**Utilisation immédiate dans un projet ChatGPT**
+
+Cette méthode permet de réutiliser les consignes de la bibliothèque dans le navigateur :
+
+1. Sur GitHub, télécharger le dépôt avec **Code → Download ZIP**, puis décompresser l'archive.
+2. Choisir un skill dans le [catalogue](CATALOGUE.md), par exemple `skills/photo-et-visuels/preparer-seance-photo/`.
+3. Sur [ChatGPT](https://chatgpt.com/), créer ou ouvrir un projet dédié à ce workflow.
+4. Ajouter aux sources du projet le fichier `SKILL.md` du skill choisi et ses références utiles, ainsi que les documents nécessaires à la tâche. Un projet par workflow évite les confusions entre plusieurs fichiers nommés `SKILL.md`.
+5. Dans les instructions du projet, ajouter :
+
+   ```text
+   Pour les demandes relevant de ce workflow, lis le fichier SKILL.md fourni
+   et applique ses consignes. Consulte les références jointes lorsqu'elles
+   sont utiles. Signale les fichiers ou outils manquants.
+   ```
+
+6. Démarrer une conversation dans ce projet, par exemple : « Applique le workflow preparer-seance-photo pour préparer cette séance et son livret. »
+
+Les [projets ChatGPT](https://learn.chatgpt.com/docs/projects) partagent leurs fichiers et instructions entre leurs conversations. Cette utilisation comme consignes de projet ne crée pas une installation native avec sélection du skill par `@`.
+
+**Installation native sur le site, par plugin**
+
+La [documentation officielle des skills](https://learn.chatgpt.com/docs/build-skills) décrit leur distribution sur ChatGPT web dans des plugins. Le dépôt actuel contient les dossiers de skills et leur installateur local ; un package de plugin reste à préparer et à rendre disponible avant une installation native de cette bibliothèque sur le site.
+
+Une fois ce plugin disponible pour votre compte :
+
+1. Ouvrir l'onglet **Plugins** de ChatGPT et retrouver le plugin dans le catalogue ou dans les plugins personnels/de l'espace de travail.
+2. Ouvrir sa fiche et sélectionner le bouton **+** pour l'installer.
+3. Démarrer une nouvelle conversation, puis utiliser `@` pour sélectionner le plugin ou l'un de ses skills.
+
+Voir la [procédure officielle d'installation des plugins](https://learn.chatgpt.com/docs/plugins). Pour un espace de travail géré, l'[import depuis GitHub](https://learn.chatgpt.com/docs/enterprise/plugin-management) nécessite un administrateur et un manifeste de marketplace compatible, absent de ce dépôt à ce stade.
+
+Sur le site, les capacités dépendent des outils disponibles dans ChatGPT. Ajouter les fichiers d'un skill ne donne pas accès aux dossiers du PC, à ComfyUI ou à GitHub CLI ; les workflows nécessitant ces outils demandent un environnement adapté.
+
+### Dans Codex, avec le skill-installer
 
 Demander dans Codex :
 
@@ -38,7 +74,9 @@ le skill situé dans skills/photo-et-visuels/preparer-seance-photo.
 
 L'accès au dépôt privé nécessite un compte autorisé. Les chemins exacts figurent dans le catalogue.
 
-### Depuis une copie locale
+### Dans Codex, depuis une copie locale
+
+Le classement par genre appartient au dépôt. Pour l'installation locale, chaque dossier de skill est placé directement dans le répertoire de découverte du client ; ne pas copier uniquement les fichiers `SKILL.md`.
 
 Après clonage ou téléchargement du dépôt, Python 3.10 ou plus récent suffit pour l'installation locale. Depuis sa racine :
 
