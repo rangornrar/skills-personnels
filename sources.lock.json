@@ -30,8 +30,8 @@
       "source_type": "copie-locale-de-reference",
       "path": "skills/strategie-et-conception/concevoir-ameliorer-ui-ux",
       "files_sha256": {
-        "agents/openai.yaml": "62f84c055e1f6aeeeee0bc358e4515f71188e4f050e205e7881f558acd0996ab",
-        "SKILL.md": "8065bd7fc8ec15094ee7d29d0dca92ec1fae007519862a9e65772e5e908005d6",
+        "agents/openai.yaml": "3818c2e7f006ce5d2fee1b8f683d82a3bfd8875434d492b0a1af919aab1aa6e4",
+        "SKILL.md": "d00404dbba3b79eaeebc427c8bed688ac8137a60edadb1427c1acc83cbb560f2",
         "README.md": "d26ec846f0f56b5674b3ae179d0f12d6a4bac9958783c201afc94815529c0537"
       },
       "local_additions": [
