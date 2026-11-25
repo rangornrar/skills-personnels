@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auditer et améliorer un produit"
+  short_description: "Audit global, corrections et plan de lancement"
+  default_prompt: "Utilise $auditer-ameliorer-produit pour auditer cet outil existant, réaliser les corrections et mises à jour documentaires nécessaires, puis produire le rapport PDF et le plan des prochaines opérations."

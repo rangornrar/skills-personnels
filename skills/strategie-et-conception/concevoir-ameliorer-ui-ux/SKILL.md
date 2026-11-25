@@ -1,85 +1,72 @@
 ---
 name: concevoir-ameliorer-ui-ux
-description: "Concevoir ou améliorer l'UI et l'UX d'un logiciel de bureau, web ou mobile à partir des usages, de l'interface et de recherches externes ciblées. Utiliser pour un audit ergonomique, une création d'interface, une refonte, un benchmark de produits comparables ou des propositions UI/UX argumentées et priorisées ; accompagner l'implémentation lorsqu'elle est demandée. Ne pas déclencher pour une correction technique sans enjeu d'interface ni pour un simple visuel marketing."
+description: "Concevoir, auditer ou améliorer une UX/UI professionnelle et innovante pour Windows, Android, iOS/iPadOS et le web : parcours, recherche actuelle, direction artistique, prototypes et vérification. Utiliser pour une création d'interface, une refonte, un audit ergonomique, un benchmark ou une amélioration visuelle ; implémenter lorsque demandé. Ne pas déclencher pour une correction technique sans enjeu d'interface ni pour un simple visuel marketing."
 ---
 
-# Concevoir et améliorer une interface utile
+# Concevoir une UX/UI professionnelle et innovante
 
-Répondre en français sauf demande contraire. Relier les choix d'interface aux tâches des utilisateurs, aux conventions de la plateforme et aux contraintes du produit. Produire des solutions concrètes, appuyées sur des observations et une recherche ciblée. Adapter la profondeur au périmètre : une correction locale ne nécessite pas une refonte complète.
+Répondre en français sauf demande contraire. Viser une interface aboutie, reconnaissable et efficace, avec une direction professionnelle et une signature visuelle affirmée par défaut. Ajuster l'expressivité au public, à l'usage et à la marque. Relier chaque décision importante à la tâche, aux conventions de la plateforme et à une vérification possible. Adapter l'effort au périmètre : une correction locale reste locale.
 
-## Cadrer le travail
+## Choisir le périmètre et les références utiles
 
-- Déterminer s'il faut créer, diagnostiquer, comparer des solutions ou implémenter. Une demande de propositions conduit à des propositions ; une demande de modification inclut la réalisation et la vérification dans le périmètre autorisé.
-- Identifier les utilisateurs, leurs tâches principales, leur niveau d'expertise, la plateforme, les modes d'entrée et les contraintes connues : identité visuelle, composants existants, stack, budget ou délai. Déduire ce qui peut l'être du projet et signaler les hypothèses qui influencent les choix.
-- Consulter les consignes du projet et le système de design existant avant de proposer un remplacement. Ce skill est transversal et ne suppose aucun framework, fournisseur ou projet particulier.
-- Poser une à trois questions ciblées seulement si une réponse peut modifier sensiblement le travail. Continuer les recherches et observations indépendantes de ces réponses.
-- Retenir un critère de réussite observable : accomplir une tâche sans aide, retrouver une commande, corriger une erreur, accéder au parcours au clavier. Sans mesure initiale, proposer une façon de l'établir plutôt qu'un gain chiffré inventé.
+- Déterminer s'il faut conseiller, auditer, explorer, prototyper ou implémenter. Une demande de propositions autorise des propositions ; une demande de modification inclut la réalisation et les vérifications appropriées dans le périmètre autorisé.
+- Lire les consignes du projet, les composants et les styles existants. Identifier utilisateurs, tâches, expertise, contenus, plateformes et versions ciblées, framework, modes d'entrée et contraintes connues. Déduire ce qui est accessible ; poser seulement les questions dont la réponse change sensiblement la conception et avancer sur le reste.
+- Retenir un critère de réussite observable : retrouver une commande, accomplir une tâche, corriger une erreur, reprendre le travail ou utiliser le parcours au clavier. Sans mesure initiale, proposer comment l'établir sans inventer de gain.
+- Lire la section correspondant à la plateforme dans [references/plateformes.md](references/plateformes.md) pour toute décision dépendante de son environnement. Pour un produit multiplateforme, lire les sections concernées.
+- Lire [references/direction-artistique.md](references/direction-artistique.md) pour une création, une refonte visuelle ou une exploration substantielle.
+- Lire [references/verification.md](references/verification.md) pour un audit, un prototype interactif ou une implémentation ; sélectionner les contrôles affectés par la demande.
 
-## Observer ou construire le parcours
+## Observer les usages et le parcours
 
-### Programme existant
+Pour un produit existant, examiner l'interface réelle lorsqu'elle est accessible : capturer les écrans et parcourir la tâche du point d'entrée au résultat avant de conclure. Le code complète l'observation du rendu. Si l'exécution est impossible, exploiter les fichiers ou captures en précisant ce qu'ils permettent d'établir. Une image ne démontre pas le fonctionnement du clavier ou d'un lecteur d'écran.
 
-- Examiner l'application réelle lorsqu'elle est accessible. Capturer les écrans et parcourir les interactions pertinentes avant de conclure sur leur apparence ou leur comportement. Utiliser les outils d'inspection ou de contrôle disponibles selon leurs règles ; le code complète l'observation du rendu.
-- Travailler à partir des captures, spécifications et fichiers disponibles si l'exécution est impossible. Préciser la limite : une capture permet d'examiner la hiérarchie visuelle, mais ne démontre ni le fonctionnement du clavier ni celui des annonces d'un lecteur d'écran.
-- Suivre la tâche de son point d'entrée à son résultat, en incluant les états utiles : premier usage, données présentes ou absentes, attente, succès, erreur, annulation et reprise. Ne pas créer un inventaire exhaustif si le besoin porte sur un seul écran.
-- Rattacher chaque constat à un écran, un composant, une étape ou un extrait identifiable. Distinguer un défaut observé, une difficulté probable à tester et une préférence esthétique.
+Pour une création, établir le scénario principal, les informations nécessaires et les actions avant la composition détaillée. Utiliser des contenus représentatifs : intitulés longs, valeurs plausibles, volumes et cas difficiles pertinents. Prévoir les états qui affectent le parcours : premier usage, données absentes ou présentes, attente, erreur, réussite, annulation et reprise.
 
-### Nouvelle interface
+Distinguer dans le raisonnement :
 
-- Définir le scénario principal, les informations nécessaires et les actions avant le style graphique. Ébaucher le parcours et la structure des écrans à partir de contenus représentatifs.
-- Prévoir les états et les contraintes de fenêtre ou d'appareil qui affectent ce scénario. Décrire les hypothèses de conception comme telles, sans les présenter comme des problèmes observés ou des besoins validés.
+- **Exigence du référentiel retenu** : citer le critère et son périmètre lorsqu'il fonde une correction.
+- **Convention de plateforme** : expliquer l'attente utilisateur et les conséquences d'un écart.
+- **Principe ergonomique** : appliquer selon les tâches et le public ; une heuristique oriente l'analyse sans prouver une difficulté observée.
+- **Choix artistique ou hypothèse** : préciser l'intention et la manière de l'évaluer.
 
-## Chercher ce qui se fait et en tirer des décisions
+Ne pas présenter les « lois UX », le nombre de clics ou une préférence visuelle comme une preuve universelle. Une interface experte peut bénéficier d'une densité élevée, d'actions groupées et de raccourcis. Préserver les fonctions utiles et la possibilité de récupérer une erreur ; écarter les interactions trompeuses.
 
-- Effectuer une recherche externe ciblée pour une conception, un audit ou une amélioration substantielle, ainsi que lorsque l'utilisateur demande des références ou tendances. Réutiliser des sources déjà vérifiées dans la session si elles restent pertinentes. Pour une correction ponctuelle établie, ne pas imposer un benchmark complet.
-- Formuler la recherche autour du problème et du contexte : par exemple, validation de formulaires sur mobile, configuration dans une application de bureau ou navigation dans un outil métier dense. Une recherche de « belles interfaces modernes » ne suffit pas.
-- Chercher deux types d'éléments lorsque cela apporte une réponse : recommandations officielles de la plateforme ou standards applicables, et exemples actuels de produits accomplissant une tâche comparable. Quelques références bien choisies valent mieux qu'une longue galerie.
-- Ouvrir les sources utiles ; vérifier leur contenu, leur contexte et leur actualité. Pour les produits comparés, distinguer un parcours testé, une démonstration officielle, une capture marketing et une simple description. Ne pas prétendre avoir utilisé un produit sur cette seule base.
-- Pour chaque référence retenue, expliquer le mécanisme intéressant, le problème qu'il pourrait résoudre ici et la limite de sa transposition. Comparer les utilisateurs, la densité d'information et les modes d'entrée ; ne pas importer automatiquement un modèle mobile dans un outil de bureau.
-- Citer les pages précises près des propositions qu'elles étayent. Donner une date ou version lorsqu'elle influe sur le choix. Un exemple populaire illustre une solution ; il ne prouve pas son efficacité. Une tendance visuelle reste une préférence tant que son bénéfice n'est pas étayé.
-- Si la recherche est indisponible, annoncer la limite et poursuivre avec les éléments accessibles. Ne pas inventer de benchmark, d'étude, de métrique ou de test utilisateur.
+## Rechercher les possibilités actuelles
 
-Points d'entrée officiels à sélectionner selon le contexte, puis approfondir vers les pages pertinentes ; vérifier les versions applicables au moment de l'usage :
+Effectuer une recherche externe ciblée pour une création, un audit ou une évolution substantielle, et pour une demande de nouveautés. Réutiliser les sources déjà vérifiées dans la session si elles restent pertinentes. Une correction ponctuelle établie ne requiert pas un benchmark complet.
 
-| Contexte | Point d'entrée |
-| --- | --- |
-| Accessibilité web | [W3C — référence WCAG](https://www.w3.org/WAI/WCAG22/quickref/) |
-| Applications Windows | [Microsoft — recommandations de conception](https://learn.microsoft.com/en-us/windows/apps/design/guidelines-overview) |
-| Plateformes Apple | [Apple — Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/) |
-| Écosystème Material | [Material — fondations](https://m3.material.io/foundations/) |
+1. Rechercher les recommandations officielles et les capacités disponibles pour les versions du système, du navigateur et du framework ciblées. Ouvrir les pages utiles et vérifier leur portée ; une annonce ne prouve pas la disponibilité dans le projet.
+2. Examiner quelques produits comparables par leurs tâches, public et modes d'entrée. Identifier ce qui est testé directement, montré dans une démonstration, visible sur une capture marketing ou seulement décrit. Utiliser les galeries visuelles comme inspiration, avec une recherche distincte de preuves d'usage.
+3. Pour les nouveautés pertinentes, noter **source et date de consultation | problème ou intention | disponibilité et versions | statut stable, expérimental ou piste visuelle | coût et limites | solution de repli**. Chercher au-delà des effets décoratifs : capacités d'interaction, d'adaptation, d'accessibilité et de présentation des données.
+4. Expliquer ce qui mérite d'être repris, adapté ou écarté. Une solution populaire ou récente doit encore convenir au produit. L'innovation peut résider dans une composition ou un parcours original fondé sur des composants éprouvés.
 
-Ces sources sont des points de départ, pas un style imposé. Pour le web, utiliser les critères WCAG de niveau AA comme cible de conception par défaut si aucun référentiel n'est fourni ; vérifier leur version et leur périmètre. Pour le natif, compléter avec les recommandations et API d'accessibilité de la plateforme. Ne pas annoncer une conformité globale à partir d'un contrôle partiel.
+Citer les pages précises près des décisions qu'elles soutiennent. Vérifier le statut d'un standard avant de le traiter comme référence de conformité ; un brouillon ne remplace pas automatiquement une recommandation publiée. Cette recherche a lieu pendant la mission ; ne pas promettre une veille permanente ou créer une automatisation sans demande.
 
-## Examiner les dimensions qui affectent la tâche
+Si la recherche est indisponible, signaler la limite et poursuivre avec les éléments accessibles. Ne pas inventer de benchmark, de disponibilité technique, d'étude ou de métrique.
 
-Sélectionner les angles utiles, sans produire une liste de contrôle indifférenciée :
+## Construire et choisir la solution
 
-- **Parcours et information :** repérage, regroupement, vocabulaire, navigation, nombre d'étapes utiles, retour en arrière, équilibre entre débutants et utilisateurs experts.
-- **Interaction :** actions identifiables, retour d'état, prévention et récupération des erreurs, saisie, confirmation ou annulation proportionnée, raccourcis et actions fréquentes.
-- **Présentation :** hiérarchie, lisibilité, densité, alignements, espacements, cohérence des composants, couleur et iconographie au service de la compréhension. Préserver une identité adaptée au produit ; éviter une recette visuelle systématique.
-- **Accessibilité et adaptation :** clavier, focus visible et logique, noms et états accessibles, contrastes mesurés, sens communiqué au-delà de la couleur, taille des cibles, zoom ou mise à l'échelle, redimensionnement et réduction des animations. Vérifier les seuils dans le référentiel applicable plutôt que mélanger pixels CSS, points et unités natives.
-- **Contenu et robustesse :** libellés précis, aide contextuelle, textes longs ou traduits, grands volumes, états vides et dégradés, attente et maintien du travail déjà saisi.
+- Relier **observation ou hypothèse → effet utilisateur → proposition concrète → vérification**. Donner un libellé, une disposition, une interaction ou un état précis.
+- Pour une création ou une refonte substantielle, explorer des directions visuelles distinctes selon le guide artistique, sauf si une direction ou un système existant répond déjà à la demande. Montrer les alternatives sur un même écran représentatif avec les mêmes contenus. Proportionner le nombre et le niveau de finition au vrai arbitrage ; une retouche locale ne nécessite pas trois maquettes.
+- Recommander une direction avec son compromis principal. Quand une sélection utilisateur est nécessaire, avancer sur le parcours et les travaux communs en attendant ; ne pas engager l'implémentation coûteuse d'une direction encore indécise.
+- Décliner la direction retenue en règles et composants réutilisables : rôles des couleurs, typographie, espacements, densité, iconographie, mouvement et états. Partager l'identité et les concepts métier entre plateformes tout en adaptant navigation, commandes et comportements.
+- Montrer les choix spatiaux par un wireframe, une maquette ou un prototype quand cela aide à décider. Préciser si le résultat est une exploration graphique, un prototype ou une interface fonctionnelle. Utiliser les outils disponibles sans supposer un service ou un abonnement particulier.
+- Prioriser selon la gravité pour la tâche, l'étendue connue, l'effort et les dépendances. Distinguer corrections nécessaires, améliorations plausibles et explorations. Qualifier les estimations ; ne pas fabriquer de scores de qualité ou de fréquence.
 
-Ne pas confondre simplicité et suppression de fonctions utiles. Pour un outil expert, une interface dense, des raccourcis ou des actions groupées peuvent mieux servir la tâche qu'un parcours dispersé. Éviter les interactions trompeuses, les coûts cachés et les choix difficiles à annuler pour augmenter artificiellement une conversion.
+## Implémenter et vérifier lorsque demandé
 
-## Proposer, comparer et prioriser
+Réutiliser les composants, conventions et technologies du projet. Ne pas imposer un framework, un fournisseur ou une refonte technique pour obtenir un style. Justifier une dépendance par le besoin et son coût de maintenance. Traiter les états et adaptations qui conditionnent réellement le parcours.
 
-- Pour une amélioration substantielle, relier **observation ou hypothèse → conséquence utilisateur → solution précise → vérification**. Donner un libellé de remplacement, une disposition, une règle d'interaction ou un état concret, plutôt que « améliorer l'ergonomie ».
-- Séparer les corrections nécessaires, les améliorations plausibles et les explorations visuelles. Prioriser selon la gravité pour la tâche, la fréquence ou l'étendue connue, l'effort et les dépendances. Qualifier l'effort comme estimation si le code n'a pas été examiné ; ne pas fabriquer de scores ou de fréquences.
-- Comparer plusieurs directions seulement si un vrai arbitrage le justifie. Inclure une évolution limitée de l'existant lorsqu'elle est viable, puis recommander une option avec son compromis et la condition qui ferait changer d'avis.
-- Examiner l'objection principale : coût d'apprentissage, perte de densité, fonction moins accessible, dépendance supplémentaire ou coût de réalisation. Ne pas confondre réduction du nombre de clics et amélioration du parcours.
-- Rendre visible une proposition spatiale quand cela facilite la décision : schéma, wireframe, maquette ou prototype adapté aux outils disponibles. Un visuel fixe illustre une apparence ; vérifier séparément les interactions.
+Appliquer les contrôles pertinents du guide de vérification, puis examiner le rendu réel. Corriger les défauts observés et revérifier les zones touchées jusqu'à résolution du périmètre accessible ou identification précise d'une limite. Une maquette ou une compilation réussie ne suffit pas à valider une interaction. Pour une livraison couvrant plusieurs plateformes, préciser celles effectivement vérifiées.
 
-## Réaliser et vérifier lorsque demandé
+Distinguer contrôles automatiques, vérifications manuelles et tests réalisés avec des utilisateurs. Un outil d'accessibilité ne démontre pas une conformité globale. Pour une création, formuler les gains attendus comme hypothèses ; annoncer un gain mesuré seulement avec des données comparables.
 
-- Réutiliser les composants et styles du projet. Introduire une nouvelle dépendance ou une refonte du système de design seulement si le besoin le justifie ; expliquer le coût et le bénéfice.
-- Implémenter les états qui conditionnent le parcours, au-delà du seul écran idéal. Conserver les fonctions utiles et traiter les adaptations pertinentes à la plateforme.
-- Exécuter les contrôles du projet appropriés et vérifier le rendu réel après modification, aux tailles et états concernés. Parcourir la tâche principale, le clavier et les erreurs affectées ; comparer les captures avant et après lorsque cela éclaire le résultat.
-- Distinguer ce qui a été vérifié automatiquement, manuellement, et ce qui reste à tester avec des utilisateurs. Ne pas qualifier une auto-évaluation de test utilisateur ni présenter une intention de conception comme un gain mesuré.
-- Si un test utilisateur est pertinent, proposer une tâche réaliste sans indiquer la solution, un public concerné et des observations utiles : réussite, erreurs, hésitations, temps et compréhension. Ne pas imposer un test statistique ou une expérimentation A/B sans trafic et conditions adaptés.
+## Livrer un résultat exploitable
 
-## Restituer un résultat exploitable
+Commencer par la recommandation ou le résultat. Adapter le livrable à la mission :
 
-Commencer par la recommandation utile et les changements prioritaires. Adapter le format au besoin ; un audit complet peut utiliser un tableau **écran ou étape | preuve | effet utilisateur | proposition | priorité et effort | validation**, suivi des références et du compromis principal. Garder les sources près des affirmations concernées.
+- **Audit** : écran ou étape, preuve, effet utilisateur, correction, priorité, effort estimé et validation ; distinguer défaut observé et difficulté à tester.
+- **Conception** : parcours, direction recommandée et visuel pertinent, comportements et états essentiels, règles de composants, adaptations par plateforme, sources et hypothèses restantes.
+- **Implémentation** : changements réalisés, rendu ou captures utiles, parcours et environnements vérifiés, limites concrètes et prochaines vérifications nécessaires.
 
-Pour une création, livrer le parcours proposé, les écrans et comportements essentiels, la direction visuelle et les hypothèses à valider. Pour une implémentation, indiquer ce qui a changé, les vérifications réalisées et les limites restantes. Un besoin local peut se satisfaire d'une réponse courte ; ne pas imposer toutes les rubriques à chaque utilisation.
+Ne pas imposer un dossier complet à chaque demande. Conserver les livrables et la documentation dans les formats et emplacements convenus pour le projet.

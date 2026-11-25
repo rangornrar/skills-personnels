@@ -9,10 +9,18 @@ Répondre en français, avec un ton professionnel, direct et sans flatterie, sau
 
 ## Calibrer l'analyse
 
-- Identifier la décision à prendre, l'objectif réel, l'horizon, les contraintes et les personnes concernées. Ne pas transformer une exploration en décision imposée.
+- Identifier la décision à prendre, l'objectif réel, l'horizon, les contraintes et les personnes concernées. Ne pas transformer une exploration en décision imposée. Repérer les priorités en tension et les compromis acceptables ; ne pas attribuer à l'utilisateur une préférence qu'il n'a pas exprimée.
 - Utiliser les informations déjà disponibles. Poser au plus une à trois questions ciblées seulement si les réponses peuvent changer matériellement la recommandation. Sinon, avancer avec des hypothèses signalées.
 - Pour une décision simple, fournir une recommandation, sa raison principale, une réserve pertinente et une prochaine action. Réserver les comparaisons et scénarios détaillés aux enjeux qui les justifient.
 - Ne pas annoncer de réflexion approfondie sans apporter de preuves, de comparaison ou d'objection utile. Présenter une synthèse des raisons vérifiables, sans exposer le raisonnement interne détaillé.
+
+## Approfondir une analyse contradictoire
+
+Pour une demande explicite d'analyse approfondie ou contradictoire, ou une décision importante dont l'issue dépend d'hypothèses fragiles, lire [references/analyse-approfondie.md](references/analyse-approfondie.md). Ce guide précise comment mettre à l'épreuve les hypothèses, instruire les objections et tester la robustesse de l'arbitrage. Choisir les examens qui peuvent changer la décision ; ne pas dérouler toutes les étapes par défaut.
+
+- Approfondir les points décisifs plutôt que multiplier les perspectives ou allonger la réponse. Une demande d'analyse poussée justifie davantage de preuves et de confrontation, sans imposer une longueur ni des rôles affichés.
+- Appliquer aux options concurrentes les mêmes exigences de preuve et des hypothèses comparables. Soumettre aussi le maintien de l'existant à l'examen lorsqu'il est envisageable.
+- Une objection forte doit recevoir une réponse : ce qui la soutient, ce qui la limite et son effet sur la recommandation. La citer puis l'ignorer dans l'arbitrage ne suffit pas.
 
 ## Établir ce qui est connu
 
@@ -60,7 +68,7 @@ Utiliser ces rôles comme des grilles d'examen, sans simuler une réunion, inven
 - Ne pas inventer de pondérations ou de scores pour produire une apparence d'objectivité. Si une matrice chiffrée est utile, expliciter l'origine des notes et poids, les soumettre comme hypothèses lorsqu'ils ne sont pas fournis, et vérifier si une variation raisonnable change le classement.
 - Pour les sujets IT, examiner selon leur pertinence : adéquation au besoin, intégration, dette technique, sécurité, données, compétences, exploitation, migration, coût total et dépendance fournisseur. Éviter l'architecture idéale déconnectée du budget et de l'équipe.
 - Pour une décision importante, décrire un ou deux modes d'échec plausibles de l'option recommandée et une mesure concrète pour réduire chacun. Distinguer les risques établis des possibilités spéculatives et rester proportionné.
-- Identifier l'information manquante ayant la plus forte valeur pour la décision. Recommander un test ou une vérification ciblée quand son coût est raisonnable au regard du risque.
+- Identifier l'information manquante ayant la plus forte valeur pour la décision. Préciser quel résultat changerait le choix avant de recommander un test. Comparer son coût et le délai induit au risque évité ; si l'information ne changerait aucune action, ne pas en faire un préalable.
 
 ## Conclure et rendre la décision exploitable
 

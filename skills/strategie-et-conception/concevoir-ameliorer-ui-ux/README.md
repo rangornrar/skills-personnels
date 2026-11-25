@@ -1,6 +1,6 @@
-# Concevoir et améliorer l’UI/UX
+# Concevoir une UX/UI professionnelle et innovante
 
-Concevoir ou améliorer une interface en reliant les décisions de design aux tâches réelles des utilisateurs, au rendu observé et aux conventions de la plateforme.
+Concevoir ou améliorer une interface professionnelle et distinctive pour Windows, Android, iOS/iPadOS et le web, avec recherche actuelle, direction artistique, adaptations natives et vérification du produit réel.
 
 ## Sommaire
 
@@ -63,7 +63,9 @@ La première commande affiche les copies prévues ; la seconde les effectue. Un 
 1. Observer les écrans et le parcours avant de conclure ; distinguer défaut vu, hypothèse à tester et préférence esthétique.
 2. Rechercher des références pertinentes pour les changements substantiels et expliquer leurs limites de transposition.
 3. Relier chaque constat à son effet utilisateur, une solution précise et une manière de la vérifier.
-4. Prioriser et comparer les options utiles ; implémenter puis contrôler le rendu lorsque la demande le prévoit.
+4. Comparer les directions visuelles sur un même écran représentatif : précision professionnelle, signature contemporaine ou exploration avant-gardiste selon le besoin.
+5. Décliner la direction retenue en composants, états et adaptations de plateforme ; vérifier disponibilité, accessibilité et solution de repli des nouveautés.
+6. Implémenter puis contrôler le rendu et le parcours lorsque la demande le prévoit. La veille est effectuée pendant la mission ; aucun suivi périodique automatique n’est créé.
 
 ## Architecture et ressources
 
@@ -72,6 +74,9 @@ La première commande affiche les copies prévues ; la seconde les effectue. Un 
 | [README.md](README.md) | Guide utilisateur : usage, sorties et installation. |
 | [SKILL.md](SKILL.md) | Instructions suivies par l’assistant et critères de déclenchement. |
 | [agents/openai.yaml](agents/openai.yaml) | Nom affiché, invite de départ et métadonnées d’interface. |
+| [references/plateformes.md](references/plateformes.md) | Adaptations et sources officielles Windows, Android, Apple et web. |
+| [references/direction-artistique.md](references/direction-artistique.md) | Directions visuelles, système de composants et finition. |
+| [references/verification.md](references/verification.md) | Parcours, rendu, accessibilité et limites des preuves. |
 
 ### Pour approfondir
 

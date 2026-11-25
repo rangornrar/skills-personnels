@@ -1,14 +1,15 @@
 # Catalogue des skills
 
-18 skills classés par genre : 11 créations, 3 reprises existantes et 4 imports OpenAI. Chaque nom ouvre son guide : but, fonctionnement et livrables. Les instructions techniques restent dans le fichier SKILL.md de chaque dossier.
+20 skills classés par genre : 13 créations, 3 reprises existantes et 4 imports OpenAI. Chaque nom ouvre son guide ; les instructions restent dans SKILL.md.
 
 ## Stratégie et conception
 
 | Skill | Usage | Origine |
 | --- | --- | --- |
 | [analyse-critique-decision](skills/strategie-et-conception/analyse-critique-decision/README.md) | Comparer les preuves, options, objections et risques. | existant |
-| [concevoir-ameliorer-ui-ux](skills/strategie-et-conception/concevoir-ameliorer-ui-ux/README.md) | Observer les parcours et proposer des améliorations argumentées. | existant |
+| [concevoir-ameliorer-ui-ux](skills/strategie-et-conception/concevoir-ameliorer-ui-ux/README.md) | Parcours, direction artistique, nouveautés et vérification sur Windows, Android, iOS et le web. | existant |
 | [specifier-projet](skills/strategie-et-conception/specifier-projet/README.md) | Conduire l’entretien, l’audit et la consolidation du dossier PDF. | existant |
+| [auditer-ameliorer-produit](skills/strategie-et-conception/auditer-ameliorer-produit/README.md) | Audit global, corrections, documentation, PDF et plan de lancement. | creation |
 
 ## Photo et visuels
 
@@ -39,6 +40,7 @@
 | [gh-address-comments](skills/developpement/gh-address-comments/README.md) | Traitement des commentaires de revue de PR ; nécessite gh authentifié. | openai |
 | [gh-fix-ci](skills/developpement/gh-fix-ci/README.md) | Diagnostic des checks GitHub Actions de pull requests ; nécessite gh authentifié. | openai |
 | [livrer-application-windows](skills/developpement/livrer-application-windows/README.md) | Tests, versions, paquets et releases vérifiés | creation |
+| [creer-deployer-applications](skills/developpement/creer-deployer-applications/README.md) | Concevoir, maquetter, développer, vérifier et livrer une application web, mobile ou de bureau. | creation |
 
 ## Sécurité applicative
 

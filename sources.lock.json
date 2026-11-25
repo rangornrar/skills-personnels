@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "date": "2026-10-30",
+  "date": "2026-11-25",
   "imports": [
     {
       "name": "analyse-critique-decision",
@@ -12,15 +12,24 @@
         "agents/openai.yaml": "63efa67912b4fc00df6e0c303dc4af219438151663eedf0ea036cf04a41e1881",
         "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
         "LICENSE": "392fb69570d58eae0c719e1fc5b200a813fb2c229dbf27f568372def285f63ed",
-        "README.md": "f8bacd1f7801f7ae6070c6d704069b59e8c55870abd9673c73a4db0aafe003ad",
-        "SKILL.md": "acba9c70e10c0a6015b9f33adb3d6ea0309c2a42ba227206431ddbe7b49b875d"
+        "README.md": "16bb0083eed30bbdd2fae857ad2de710040a8ec679b7193e4581b8d7cc046f33",
+        "references/analyse-approfondie.md": "dd2dae52b8f0d32027adf6069d14d1a0fdb3b9739e3fe18c8e130cc05f87bff2",
+        "SKILL.md": "ad1db2fbe018b341c1fcf373327f56b1a97864eeaa2b47d3f5307bb0967dffcd"
       },
       "local_modifications": [
         {
           "path": "README.md",
           "source_sha256": "ef2b7d99d42e0aa6f84c0de54a0bd8a945ec978c4c1af42cb753835719654ba8",
           "description": "Guide réorganisé : usage et sorties avant installation, sommaire ajouté."
+        },
+        {
+          "path": "SKILL.md",
+          "source_sha256": "acba9c70e10c0a6015b9f33adb3d6ea0309c2a42ba227206431ddbe7b49b875d",
+          "description": "Synchronisation avec la version personnelle installée le 25 novembre 2026."
         }
+      ],
+      "local_additions": [
+        "references/analyse-approfondie.md"
       ]
     },
     {
@@ -30,12 +39,30 @@
       "source_type": "copie-locale-de-reference",
       "path": "skills/strategie-et-conception/concevoir-ameliorer-ui-ux",
       "files_sha256": {
-        "agents/openai.yaml": "3818c2e7f006ce5d2fee1b8f683d82a3bfd8875434d492b0a1af919aab1aa6e4",
-        "SKILL.md": "d00404dbba3b79eaeebc427c8bed688ac8137a60edadb1427c1acc83cbb560f2",
-        "README.md": "d26ec846f0f56b5674b3ae179d0f12d6a4bac9958783c201afc94815529c0537"
+        "agents/openai.yaml": "2a8e5b3f76d43c10c46674cfe315fc1c9136b5e33a59b6f4ff306ab1cbb745bd",
+        "README.md": "3485aa8502ad83fe94ab320284ad6257cbd16e242533db21b1cec75ef492f3dd",
+        "references/direction-artistique.md": "4d9e88a30ce4845ce2b72754fa5c0a072b4d230b3b40765f7f24c3688ec19497",
+        "references/plateformes.md": "e20a5b0c965a8e1a5255c20d577f9c3fe00f81b675f448a02f6e8891117fba10",
+        "references/verification.md": "d4a349e52d77b0599d029a9848dd6e89aa747466b0b1dacd06b3a74ef767b93a",
+        "SKILL.md": "68c13b98fd03650b7b2a5c63f463fe70c4c5563b1c9de3346c786dc7680d34fb"
       },
       "local_additions": [
-        "README.md"
+        "README.md",
+        "references/direction-artistique.md",
+        "references/plateformes.md",
+        "references/verification.md"
+      ],
+      "local_modifications": [
+        {
+          "path": "agents/openai.yaml",
+          "source_sha256": "3818c2e7f006ce5d2fee1b8f683d82a3bfd8875434d492b0a1af919aab1aa6e4",
+          "description": "Synchronisation avec la version personnelle installée le 25 novembre 2026."
+        },
+        {
+          "path": "SKILL.md",
+          "source_sha256": "d00404dbba3b79eaeebc427c8bed688ac8137a60edadb1427c1acc83cbb560f2",
+          "description": "Synchronisation avec la version personnelle installée le 25 novembre 2026."
+        }
       ]
     },
     {
@@ -47,14 +74,15 @@
       "files_sha256": {
         "agents/openai.yaml": "a95dffa9b3238a1b34f486fdafac7dd26c509eae58245712f95075105ea22f08",
         "assets/icon.svg": "51a6923974188748638a424aa59b42b6afad2d910f910a1d43bb13ee10f3ce26",
+        "README.md": "caab05dfb5a233de129a6d8c9191560aeb5a1cceac2d150b1e21624001b7dbdd",
         "references/domaines.md": "ce376a64154aa02073351858ac10155e908139d6afca2fd0ea36f199f8e6b059",
         "references/plan-dossier.md": "6ed2b26c6b48e8c4943cf77734610926615bb587492f63699e583aaa101bb6eb",
-        "SKILL.md": "2c5cb1dca7e1112ab0af6c27a0028cfedfba723ab3c2f186f9a28f4f73da1b94",
-        "README.md": "caab05dfb5a233de129a6d8c9191560aeb5a1cceac2d150b1e21624001b7dbdd"
+        "SKILL.md": "2c5cb1dca7e1112ab0af6c27a0028cfedfba723ab3c2f186f9a28f4f73da1b94"
       },
       "local_additions": [
         "README.md"
-      ]
+      ],
+      "local_modifications": []
     },
     {
       "name": "gh-address-comments",

@@ -29,16 +29,17 @@
     },
     {
       "name": "concevoir-ameliorer-ui-ux",
-      "title": "Concevoir et améliorer l’UI/UX",
+      "title": "Concevoir une UX/UI professionnelle et innovante",
       "genre": "strategie-et-conception",
       "path": "skills/strategie-et-conception/concevoir-ameliorer-ui-ux",
       "origin": "existant",
       "status": "repris",
       "license": "MIT",
-      "summary": "Observer les parcours et proposer des améliorations argumentées.",
+      "summary": "Parcours, direction artistique, nouveautés et vérification sur Windows, Android, iOS et le web.",
       "source": "https://github.com/rangornrar/concevoir-ameliorer-ui-ux",
       "source_type": "copie-locale-de-reference",
-      "readme": "skills/strategie-et-conception/concevoir-ameliorer-ui-ux/README.md"
+      "readme": "skills/strategie-et-conception/concevoir-ameliorer-ui-ux/README.md",
+      "documentation": "Synchronisé avec le skill personnel installé le 25 novembre 2026 ; guide et références actualisés."
     },
     {
       "name": "specifier-projet",
@@ -255,6 +256,32 @@
       "example": "Compare ces deux dossiers après clonage et explique les écarts, sans modifier les fichiers sources.",
       "expectation": "Les fichiers illisibles sont signalés ; taille et date seules ne prouvent pas l’identité du contenu.",
       "readme": "skills/windows/diagnostiquer-windows-et-dossiers/README.md"
+    },
+    {
+      "name": "creer-deployer-applications",
+      "title": "Créer et déployer des applications",
+      "genre": "developpement",
+      "path": "skills/developpement/creer-deployer-applications",
+      "origin": "creation",
+      "status": "premiere-version",
+      "license": "MIT",
+      "summary": "Concevoir, maquetter, développer, vérifier et livrer une application web, mobile ou de bureau.",
+      "example": "Crée cette application en partant des usages, puis réalise et vérifie une première version sur la plateforme retenue.",
+      "expectation": "Les livrables réalisés, tests sur appareil, déploiements et limites des accès sont distingués.",
+      "readme": "skills/developpement/creer-deployer-applications/README.md"
+    },
+    {
+      "name": "auditer-ameliorer-produit",
+      "title": "Auditer et améliorer un produit existant",
+      "genre": "strategie-et-conception",
+      "path": "skills/strategie-et-conception/auditer-ameliorer-produit",
+      "origin": "creation",
+      "status": "premiere-version",
+      "license": "MIT",
+      "summary": "Audit global, corrections, documentation, PDF et plan de lancement.",
+      "example": "Audite cet outil existant, corrige les écarts autorisés, actualise ses documents et produis le PDF avec le plan de diffusion ou de vente.",
+      "expectation": "Les preuves et limites sont visibles ; besoins historiques, correctifs vérifiés, actions proposées et publications effectives restent distincts.",
+      "readme": "skills/strategie-et-conception/auditer-ameliorer-produit/README.md"
     }
   ]
 }

@@ -1,8 +1,4 @@
 interface:
-
-  display_name: "Conception et amélioration UI/UX"
-
-  short_description: "Concevoir et améliorer les interfaces avec des sources"
-
-  default_prompt: "Utilise $concevoir-ameliorer-ui-ux pour examiner ce programme, rechercher des références pertinentes et proposer des améliorations UI et UX concrètes et priorisées."
-
+  display_name: "Concevoir une UX/UI professionnelle et innovante"
+  short_description: "UX/UI haut de gamme pour Windows, mobile et web"
+  default_prompt: "Utilise $concevoir-ameliorer-ui-ux pour concevoir ou améliorer cette interface avec une UX rigoureuse, une identité visuelle affirmée, des références actuelles et une vérification adaptée aux plateformes ciblées."

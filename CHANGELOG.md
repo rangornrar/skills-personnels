@@ -1,5 +1,12 @@
 # Historique
 
+## 2026-11-25 — Synchronisation des skills personnels
+
+- Synchronisation des neuf skills personnels installés avec la bibliothèque, sans modifier les imports OpenAI ni supprimer les autres skills existants.
+- Ajout de `creer-deployer-applications`, de ses quatre références et de son guide utilisateur.
+- Mise à jour UI/UX : direction artistique, possibilités actuelles, adaptations Windows/Android/Apple/web et vérification.
+- Actualisation des catalogues, de la documentation et des empreintes des reprises personnelles modifiées.
+
 ## 2026-10-30 — Lecture centrée sur l'usage
 
 - Réorganisation des dix-neuf README : utilité, utilisation et sorties avant installation et détails techniques.

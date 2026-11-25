@@ -3,7 +3,7 @@
 [![Validation](https://github.com/rangornrar/skills-personnels/actions/workflows/validate.yml/badge.svg)](https://github.com/rangornrar/skills-personnels/actions/workflows/validate.yml)
 [![Licence des créations : MIT](https://img.shields.io/badge/créations-MIT-green.svg)](LICENSE)
 
-**Une bibliothèque de 18 skills classés par genre : 11 nouveaux workflows en français, 3 skills existants et 4 compléments officiels OpenAI.**
+**Une bibliothèque de 20 skills classés par genre : 13 nouveaux workflows en français, 3 skills existants et 4 compléments officiels OpenAI.**
 
 Les skills portent les méthodes de travail et critères de qualité. Les logiciels, moteurs d'image, connecteurs et outils de production restent ceux disponibles dans l'environnement d'exécution.
 
@@ -59,11 +59,11 @@ Les fichiers, formats et opérations externes dépendent de la demande et des ou
 
 | Genre | Contenu | Nombre |
 | --- | --- | ---: |
-| [Stratégie et conception](skills/strategie-et-conception) | Analyse critique, spécifications et UI/UX | 3 |
+| [Stratégie et conception](skills/strategie-et-conception) | Analyse critique, spécifications, UI/UX et audit global de produit | 4 |
 | [Photo et visuels](skills/photo-et-visuels) | Séances, moodboards et visuels produits | 2 |
 | [Commerce](skills/commerce) | Fiches marketplaces, chiffre d'affaires et marges | 2 |
 | [Communication et éditorial](skills/communication-et-editorial) | Réunions, messages et contenus sourcés | 3 |
-| [Développement](skills/developpement) | Livraison Windows et workflows GitHub | 3 |
+| [Développement](skills/developpement) | Création et déploiement d’applications, livraison Windows et workflows GitHub | 4 |
 | [Sécurité](skills/securite) | Revue de pratiques et modélisation des menaces | 2 |
 | [Emploi](skills/emploi) | Recherche, candidatures et suivi | 1 |
 | [Sport](skills/sport) | Analyse des exports Strava | 1 |
@@ -179,7 +179,7 @@ python -m unittest discover -s tests -v
 
 Le contrôle vérifie catalogue, structure, frontmatter, métadonnées, ressources locales et empreintes des imports. GitHub Actions exécute aussi les tests des scripts d'installation et de validation.
 
-Les 11 créations sont des premières versions. Les contrôles statiques ne constituent pas une recette complète des workflows, ni une certification médicale, juridique ou financière. Voir [la méthode de validation](docs/VALIDATION.md) et [le guide de contribution](CONTRIBUTING.md).
+Les 13 créations sont des premières versions. Les contrôles statiques ne constituent pas une recette complète des workflows, ni une certification médicale, juridique ou financière. Voir [la méthode de validation](docs/VALIDATION.md) et [le guide de contribution](CONTRIBUTING.md).
 
 ## Sources et licences
 

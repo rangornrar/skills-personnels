@@ -1,0 +1,4 @@
+interface:
+  display_name: "Créer et déployer des applications"
+  short_description: "Du besoin aux maquettes, au code et au déploiement"
+  default_prompt: "Utilise $creer-deployer-applications pour transformer mon idée en application, du cadrage au déploiement sur les plateformes adaptées."

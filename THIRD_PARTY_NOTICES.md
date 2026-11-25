@@ -2,7 +2,7 @@
 
 ## Créations et reprises personnelles
 
-Les onze nouveaux skills et les fichiers de bibliothèque sont sous licence MIT ; le texte figure dans [LICENSE](LICENSE).
+Les treize skills créés et les fichiers de bibliothèque sont sous licence MIT ; le texte figure dans [LICENSE](LICENSE).
 
 Les trois skills repris sont les copies locales de référence disponibles le 30 octobre 2026 :
 
@@ -25,6 +25,6 @@ Source : [openai/skills](https://github.com/openai/skills), révision [`49f948fa
 
 Les fichiers amont importés sont conservés sans modification. Un `README.md` français a été ajouté localement dans chacun des quatre dossiers pour expliquer le but, le fonctionnement et les livrables ; ces guides locaux sont sous licence MIT et ne remplacent pas les instructions amont. La licence MIT racine ne remplace pas les licences des fichiers importés.
 
-Les empreintes SHA-256 des fichiers importés, des trois reprises et des guides ajoutés figurent dans [sources.lock.json](sources.lock.json). Le champ `local_additions` distingue les documentations locales des fichiers d'origine. Le README d'`analyse-critique-decision` a été réorganisé pour présenter l'usage et les sorties avant l'installation ; cette adaptation et son empreinte d'origine sont déclarées dans `local_modifications`. Les deux autres reprises ont reçu un guide local. Les instructions des skills restent inchangées. Les empreintes détectent les changements ; elles ne constituent pas une signature de l'éditeur.
+Les empreintes SHA-256 des fichiers importés, des trois reprises et des guides ajoutés figurent dans [sources.lock.json](sources.lock.json). Le champ `local_additions` distingue les documentations locales des fichiers d'origine. Le README d'`analyse-critique-decision` a été réorganisé pour présenter l'usage et les sorties avant l'installation ; cette adaptation et son empreinte d'origine sont déclarées dans `local_modifications`. Les deux autres reprises ont reçu un guide local. Les instructions des imports OpenAI restent inchangées. Les reprises personnelles ont été synchronisées avec les versions installées le 25 novembre 2026 ; les fichiers adaptés et ajoutés sont déclarés dans les empreintes. Le dépôt individuel reste une source historique et ne représente pas nécessairement cette version actualisée. Les empreintes détectent les changements ; elles ne constituent pas une signature de l'éditeur.
 
 Pour mettre à jour un import, récupérer une révision explicite, examiner les changements et avis de licence, puis actualiser catalogue et empreintes. Ne pas corriger silencieusement les fichiers importés tout en les déclarant inchangés.
